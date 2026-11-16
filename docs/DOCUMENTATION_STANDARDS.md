@@ -25,6 +25,10 @@ formats for revision. Check that every declared output exists and has a hash.
 
 ## Visual outputs
 
+For CAD-derived geometry or physical time simulations, follow
+[`PLE-ENGINEERING-MODELING.md`](PLE-ENGINEERING-MODELING.md) and retain source,
+unit, solver, and verification receipts for each claimed state.
+
 Use a mind map for topic hierarchy, a DAG for ordered work and dependencies,
 and a relational graph for typed links. Label every node and edge. A DAG must
 be acyclic. Provide a text legend/adjacency description alongside each visual

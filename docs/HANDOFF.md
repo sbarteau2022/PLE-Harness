@@ -1,5 +1,19 @@
 # PLE harness handoff
 
+## Engineering modeling reference, 2026-11-16
+
+`engineering_verify` is now available to every PLE model seat and frontier
+worker. It checks bounded, inline manifests for geometry boxes, source tags,
+connection routes, clearances, time order, and declared junction flow balance.
+Its contract and limits are in `docs/ENGINEERING-VERIFIER-DESIGN.md`; it is not
+an IFC validator or hydraulic solver.
+
+`docs/PLE-ENGINEERING-MODELING.md` maps the official PLE kit protocol and
+public engineering briefs to available tools, 2D-to-IFC reconstruction,
+time-indexed cooling-system visualization, verification loops, and model-neutral
+implementation gaps. `artifact_render` remains an explanatory graph renderer,
+not CAD or a physical solver.
+
 ## Artifact authoring capability, 2026-11-16
 
 `docs/DOCUMENTATION_STANDARDS.md` now governs PLE-authored reports and visuals.

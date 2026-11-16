@@ -7,6 +7,8 @@ description: Create or revise a PLE report, handoff, document, PDF, DOCX, mind m
 
 Read `docs/DOCUMENTATION_STANDARDS.md` in the harness before publishing a
 document. Write the claim and evidence first, then choose the output formats.
+For drawing-derived CAD or time-varying physical systems, also read
+`docs/PLE-ENGINEERING-MODELING.md` before selecting tools or claiming a result.
 
 Call `artifact_render` with structured sections and, for visuals, nodes and
 edges. Use `kind: document` for text formats, `mindmap`, `dag`, or `relation`

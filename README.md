@@ -94,6 +94,14 @@ claiming output that has not returned yet.
 ## Tools available to the model
 
 - `bash`, `read_file`, `write_file`, and `finish` are available on every task.
+- `engineering_verify` checks a bounded inline manifest for sourced 3D boxes,
+  routes, clearances, ordered states, and declared junction flow balance. It
+  returns deterministic findings and a manifest hash; it does not certify CAD
+  solids or physics. See the [tool design](docs/ENGINEERING-VERIFIER-DESIGN.md).
+  The same gate runs from a terminal with
+  `.venv/bin/python -m engineering_verify path/to/manifest.json` (exit 0 pass,
+  1 findings, 2 invalid input), so product and systems-engineering pipelines
+  can use it without a model.
 - `mcp_list`, `mcp_schema`, and `mcp_call` expose task applications such as
   spreadsheets, documents, PDF tools, FreeCAD, mail, and code execution. These
   are meta-tools: the model requests a schema when needed instead of receiving
@@ -107,6 +115,9 @@ claiming output that has not returned yet.
   3D/4D HTML graphs. This is available through the same frontier entry point
   that Zed launches. The [documentation standard](docs/DOCUMENTATION_STANDARDS.md)
   defines evidence and accessibility requirements.
+  The [engineering modeling guide](docs/PLE-ENGINEERING-MODELING.md) maps the
+  PLE kit tools, drawing-to-IFC workflow, 4D cooling-system state, verification
+  loops, and current implementation gaps.
 
 All model seats use the same text and trajectory contract. Optional local
 tensor continuation is selected by runtime capability, never by a model name

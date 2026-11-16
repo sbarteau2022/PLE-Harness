@@ -27,6 +27,8 @@ import time
 import types
 from typing import Any
 
+import engineering_verify
+
 import openai
 
 import taskbridge
@@ -169,6 +171,7 @@ TOOLS: list[dict[str, Any]] = [
         },
     },
 ]
+TOOLS.insert(-1, engineering_verify.TOOL)
 
 
 @dataclasses.dataclass(frozen=True)
@@ -471,6 +474,9 @@ class ToolRunner:
 
     async def run(self, name: str, args: dict[str, Any]) -> str:
         try:
+            if name == "engineering_verify":
+                result = engineering_verify.run(args)
+                return result if len(result) <= self._limit else "error: engineering verification report exceeds tool output limit; reduce manifest size"
             if name in self._handlers:
                 return _clip(str(await self._handlers[name](args)), self._limit)
             if name == "bash":

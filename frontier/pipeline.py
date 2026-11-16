@@ -145,11 +145,12 @@ LESSON_TOOL = {"type": "function", "function": {
     "description": "Record one concrete lesson for later rounds (what was tried, what happened, what to do instead).",
     "parameters": {"type": "object", "properties": {"text": {"type": "string"}}, "required": ["text"]}}}
 FINISH = [t for t in agent.TOOLS if t["function"]["name"] == "finish"]
+ENGINEERING = [t for t in agent.TOOLS if t["function"]["name"] == "engineering_verify"]
 READ = [t for t in agent.TOOLS if t["function"]["name"] == "read_file"]
 COMMON = n3.MEMORY_TOOLS + [n3.RAG_TOOLS[0], n3.RAG_TOOLS[2], skills.TOOL, LESSON_TOOL, artifacts.TOOL] + surreal.MIND_TOOLS
 MIND_TOOL_NAMES = {t["function"]["name"] for t in surreal.MIND_TOOLS}
 PHASE_TOOLS = {
-    "research": research.TOOLS + n3.TOOLS + [skills.TOOL, LESSON_TOOL, artifacts.TOOL] + surreal.MIND_TOOLS + READ + FINISH,
+    "research": research.TOOLS + n3.TOOLS + [skills.TOOL, LESSON_TOOL, artifacts.TOOL] + surreal.MIND_TOOLS + READ + ENGINEERING + FINISH,
     "audit": agent.TOOLS + COMMON,
     "design": agent.TOOLS + COMMON + research.TOOLS,
     "preregistration": agent.TOOLS + COMMON,
