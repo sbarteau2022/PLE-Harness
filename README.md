@@ -1,7 +1,7 @@
 # PLE Harness
 
 PLE Harness is a model-agnostic agent runtime for
-[Physical-Engineering's Last Exam](../ple/README.md). It connects any
+[Physical-Engineering's Last Exam](https://github.com/google-research/ple). It connects any
 OpenAI-compatible model to a bounded tool loop, the PLE WebSocket protocol,
 task-provided MCP applications, local research retrieval, and an auditable
 shared memory.
@@ -13,6 +13,9 @@ checked instead of inferred from a final answer.
 > **Start here:** [docs/HANDOFF.md](docs/HANDOFF.md) is the current source of
 > truth for repository state and next work. Everything that runs belongs under
 > this repository.
+
+The [documentation index](docs/README.md) lists canonical designs, evidence,
+historical snapshots, and the [next additive tasks](docs/NEXT-TASKS-BEYOND-HANDOFF.md).
 
 For Claude project setup, paste the [project instructions](docs/CLAUDE-PROJECT-INSTRUCTIONS-PASTE.md)
 and consult the [expanded runbook](docs/CLAUDE-PROJECT-INSTRUCTIONS.md),

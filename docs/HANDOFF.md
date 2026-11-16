@@ -1,5 +1,10 @@
 # PLE harness handoff
 
+For work added after the dated sections below, see
+`docs/NEXT-TASKS-BEYOND-HANDOFF.md`. The operator snapshot from 2026-11-15
+is historical; later 2026-11-16 addenda and current receipts supersede its
+"no paid call" statement. The documentation inventory is `docs/README.md`.
+
 Claude project setup text is in `docs/CLAUDE-PROJECT-INSTRUCTIONS.md`. It
 preserves the distinction between implemented PLE mechanisms and proposed
 recall-first, FEP, sparse-attention, thermodynamic, and Meta Cognitive
