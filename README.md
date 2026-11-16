@@ -14,6 +14,11 @@ checked instead of inferred from a final answer.
 > truth for repository state and next work. Everything that runs belongs under
 > this repository.
 
+For Claude project setup, paste the [project instructions](docs/CLAUDE-PROJECT-INSTRUCTIONS-PASTE.md)
+and consult the [expanded runbook](docs/CLAUDE-PROJECT-INSTRUCTIONS.md),
+which define the math, research-ingestion, Frontier Loop, attention/FEP,
+verification, and storage contracts.
+
 ## Current status
 
 The core PLE server, model loop, native tools, MCP forwarding, local research

@@ -1,5 +1,10 @@
 # PLE harness handoff
 
+Claude project setup text is in `docs/CLAUDE-PROJECT-INSTRUCTIONS.md`. It
+preserves the distinction between implemented PLE mechanisms and proposed
+recall-first, FEP, sparse-attention, thermodynamic, and Meta Cognitive
+Automaton research.
+
 ## Engineering modeling reference, 2026-11-16
 
 `engineering_verify` is now available to every PLE model seat and frontier
