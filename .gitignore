@@ -16,3 +16,4 @@ ablations/entries/
 ablations/.entry-*/
 # Separate published repository nested under the harness workspace.
 attention-economics/
+skills/*-workspace/

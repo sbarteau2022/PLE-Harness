@@ -1,5 +1,15 @@
 # PLE harness handoff
 
+## Artifact authoring capability, 2026-11-16
+
+`docs/DOCUMENTATION_STANDARDS.md` now governs PLE-authored reports and visuals.
+`skills/ple-artifacts/SKILL.md` is found by the existing frontier skill loader.
+The `artifact_render` frontier tool writes portable text, Markdown, PDF, DOCX,
+SVG mind maps/DAGs, and interactive 3D/4D HTML inside the active workspace.
+Zed's `ple-harness` task uses this same frontier pipeline. The renderer is
+model-neutral and returns byte counts and SHA-256 receipts. Read
+`docs/ARTIFACTS-DESIGN.md` for limits and verification boundaries.
+
 ## OPERATOR HANDOFF — 2026-11-15 23:30 CST
 
 **Current truth:** no paid NVIDIA model call has been made. The only runnable

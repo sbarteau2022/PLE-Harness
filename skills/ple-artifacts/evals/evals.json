@@ -1,0 +1,8 @@
+{
+  "skill_name": "ple-artifacts",
+  "evals": [
+    {"id": 1, "prompt": "Write a short engineering decision note with a Markdown source and PDF export; include the observed values, units, and open limits.", "expected_output": "Readable Markdown and PDF with the same claims and hash receipts.", "files": []},
+    {"id": 2, "prompt": "Draw a workflow DAG for research, audit, design, preregistration, implementation, and independent review, with a text legend.", "expected_output": "Acyclic SVG and accessible text description.", "files": []},
+    {"id": 3, "prompt": "Make an interactive four-coordinate graph of six labeled memory nodes with a slider for the fourth coordinate.", "expected_output": "Self-contained HTML with labeled axes, slider, escaped labels, and a receipt.", "files": []}
+  ]
+}

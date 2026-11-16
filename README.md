@@ -102,6 +102,11 @@ claiming output that has not returned yet.
   it is mounted.
 - Mind tools search, open, mint, and connect verified SurrealDB atoms and
   trajectories when shared memory is enabled.
+- Frontier agents can load the `ple-artifacts` skill and call `artifact_render`
+  to write `.txt`, `.md`, `.pdf`, `.docx`, SVG mind maps or DAGs, and interactive
+  3D/4D HTML graphs. This is available through the same frontier entry point
+  that Zed launches. The [documentation standard](docs/DOCUMENTATION_STANDARDS.md)
+  defines evidence and accessibility requirements.
 
 All model seats use the same text and trajectory contract. Optional local
 tensor continuation is selected by runtime capability, never by a model name
@@ -347,6 +352,8 @@ claims until each one is measured.
 - [Cross-harness preregistration](ablations/PREREGISTRATION.md)
 - [Recall-first implementation handoff](docs/recall-first-forward/HANDOFF.md)
 - [Receipt-backed graph notes](reports/attention-economics/README.md)
+- [Documentation standards](docs/DOCUMENTATION_STANDARDS.md)
+- [Artifact rendering design](docs/ARTIFACTS-DESIGN.md)
 
 The README describes the project. The handoff controls the next implementation
 step whenever the two differ.

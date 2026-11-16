@@ -34,7 +34,7 @@ from typing import Any
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 import agent  # noqa: E402
-from frontier import core, n3, research, skills, surreal  # noqa: E402
+from frontier import artifacts, core, n3, research, skills, surreal  # noqa: E402
 
 STAGES = ["research", "audit", "design", "preregistration"]
 DOCS = {"design": "DESIGN.md", "preregistration": "PREREGISTRATION.md"}
@@ -146,10 +146,10 @@ LESSON_TOOL = {"type": "function", "function": {
     "parameters": {"type": "object", "properties": {"text": {"type": "string"}}, "required": ["text"]}}}
 FINISH = [t for t in agent.TOOLS if t["function"]["name"] == "finish"]
 READ = [t for t in agent.TOOLS if t["function"]["name"] == "read_file"]
-COMMON = n3.MEMORY_TOOLS + [n3.RAG_TOOLS[0], n3.RAG_TOOLS[2], skills.TOOL, LESSON_TOOL] + surreal.MIND_TOOLS
+COMMON = n3.MEMORY_TOOLS + [n3.RAG_TOOLS[0], n3.RAG_TOOLS[2], skills.TOOL, LESSON_TOOL, artifacts.TOOL] + surreal.MIND_TOOLS
 MIND_TOOL_NAMES = {t["function"]["name"] for t in surreal.MIND_TOOLS}
 PHASE_TOOLS = {
-    "research": research.TOOLS + n3.TOOLS + [skills.TOOL, LESSON_TOOL] + surreal.MIND_TOOLS + READ + FINISH,
+    "research": research.TOOLS + n3.TOOLS + [skills.TOOL, LESSON_TOOL, artifacts.TOOL] + surreal.MIND_TOOLS + READ + FINISH,
     "audit": agent.TOOLS + COMMON,
     "design": agent.TOOLS + COMMON + research.TOOLS,
     "preregistration": agent.TOOLS + COMMON,
@@ -208,7 +208,8 @@ async def run_agent(target: pathlib.Path, state: dict, phase: str, instruction: 
     handlers = dict(research.HANDLERS)
     handlers.update(n3.make_handlers(memory, n3.Rag(), ingested, fetch=research.HANDLERS["web_fetch"]))
     handlers.update({"skill": skills.make_handler(used, limit=min(14000, config.compact_at_tokens)),
-                     "record_lesson": record_lesson})
+                     "record_lesson": record_lesson,
+                     "artifact_render": artifacts.make_handler(session)})
     handlers.update(surreal.make_handlers(mind))
     tools = [t for t in PHASE_TOOLS[phase] if mind is not None or t["function"]["name"] not in MIND_TOOL_NAMES]
     prompt = PROMPTS[phase]
