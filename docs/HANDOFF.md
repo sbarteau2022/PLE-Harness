@@ -234,6 +234,19 @@ uninterrupted/imported/restarted logits and token IDs before claiming reuse.
 
 ## Remaining full-goal work
 
+### Next implementation packet: recall-first forward policy
+
+Resume with `docs/recall-first-forward/HANDOFF.md`. Its governing packet is:
+
+- `docs/recall-first-forward/DESIGN.md`
+- `docs/recall-first-forward/PREREGISTRATION.md`
+- `docs/recall-first-forward/FEP-INTEGRATION.md`
+
+Implement this work in the PLE harness. The attention-economics paper measures
+the resulting policy and runtime behavior; it is not a separate harness.
+Recall-first/FEP arms, clean-prefix branching, and sparse-page attention remain
+unimplemented and must retain the preregistered evidence boundaries.
+
 1. Production qualification of automatic export/publication/discovery. The
    coordinator and synthetic persistent restart work; trusted actual runtime
    export and independent trained-model behavior remain unqualified.
