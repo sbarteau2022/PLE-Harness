@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+runs/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+target/
+runtime/**/target/
+native-kv-bridge/target/
+ablations/vendor/
+ablations/runs/
+ablations/work/
+ablations/entries/
+ablations/.entry-*/
+# Separate published repository nested under the harness workspace.
+attention-economics/

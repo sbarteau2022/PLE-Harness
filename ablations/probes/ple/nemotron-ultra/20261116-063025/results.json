@@ -1,0 +1,147 @@
+{
+  "actual_tool_calls": 26,
+  "closed": true,
+  "deliverables": [
+    {
+      "bytes": 432,
+      "path": "output/summary.md",
+      "sha256": "e22a9d197276e41d4a6a38aab0840c4784f8d11f000acd247ee160f830263fa1"
+    },
+    {
+      "bytes": 205,
+      "path": "output/matrix.json",
+      "sha256": "410724ca717dfc59a73961295443fabc5e09bc662d32675015a5554ce0a14324"
+    },
+    {
+      "bytes": 55,
+      "path": "output/receipt.txt",
+      "sha256": "b1cdc3e5272c4c1947634ce4b76dd8c1a86a6047bd4051d65026f2556ad987b9"
+    }
+  ],
+  "ended_at": "2026-11-16T12:31:51.368068+00:00",
+  "events_path": "trajectory.jsonl",
+  "harness": "ple",
+  "live": true,
+  "mint": {
+    "admission": "distillation_admission:6cs2kgefjzl99rfx1nuf",
+    "atoms": [
+      "atom:2117",
+      "atom:2118",
+      "atom:2119",
+      "atom:2120"
+    ],
+    "kind": "harness-side-observation",
+    "readback": {
+      "atoms": [
+        {
+          "content_digest": "713137ab1a930dadf8427f0c23a425b6e928b402499cf777b3b94579d7d2f0bc",
+          "domain": "S_workflow",
+          "id": "atom:2117"
+        },
+        {
+          "content_digest": "4f192183f08d0759887d7e2828359defb1669b700cb7bdd7c1db3d9a90964bfb",
+          "domain": "S_workflow",
+          "id": "atom:2118"
+        },
+        {
+          "content_digest": "b11f23a5b66fad5e80f56e2946e3027ea07e343b171036457e0d19ceb08ab0ec",
+          "domain": "S_workflow",
+          "id": "atom:2119"
+        },
+        {
+          "content_digest": "774e2bf9db86d46b9ccab64bb414dc481d8d9f27b04586d3b80e7a00f8b4f5ef",
+          "domain": "S_workflow",
+          "id": "atom:2120"
+        }
+      ],
+      "steps": 4,
+      "trajectory": "distilled_trajectory:mtqaailh8bsqmr9pptc9"
+    },
+    "trajectory": "distilled_trajectory:mtqaailh8bsqmr9pptc9"
+  },
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "prescribed_repeated_calls": 6,
+  "requested_calls": 27,
+  "schema_version": 1,
+  "seat": "nemotron-ultra",
+  "started_at": "2026-11-16T12:30:27.447578+00:00",
+  "summary": "Deliverables created and verified:\n- output/summary.md (SHA256: e22a9d197276e41d4a6a38aab0840c4784f8d11f000acd247ee160f830263fa1, consistent across 6 checks)\n- output/matrix.json (maps all 8 FACT-IDs to their values)\n- output/receipt.txt (lists the three output paths)\n\nAll eight facts (FACT-01 through FACT-08) have been synthesized into both summary.md and matrix.json with values value-17 through value-136 in increments of 17.",
+  "telemetry": {
+    "by_name": {
+      "bash": 13,
+      "finish": 1,
+      "read_file": 10,
+      "write_file": 3
+    },
+    "cached": 0,
+    "e2e_ms": [
+      1282,
+      1510,
+      3124,
+      1047,
+      2585,
+      2538,
+      2089,
+      2417,
+      1839,
+      985,
+      1104,
+      1169,
+      1389,
+      2464,
+      22570,
+      4002,
+      4037,
+      1906,
+      3034,
+      1535,
+      2114,
+      3992,
+      3042,
+      1913,
+      3926,
+      1606,
+      5667
+    ],
+    "errors": 0,
+    "finish_refusals": 0,
+    "max_context": 4057,
+    "no_progress_turns": 0,
+    "output": 2189,
+    "prompt": 65352,
+    "response_ids": [
+      "chatcmpl-e6ebf694-f4dc-4deb-8ee7-5cae7d7dc007",
+      "chatcmpl-12579416-06e0-4b69-9694-2bd9ef9fa41c",
+      "chatcmpl-c86240c0-f5f6-4db7-a41c-56a638f7f09b",
+      "chatcmpl-cfcaadbe-1f97-4b99-944c-dad199ce7a39",
+      "chatcmpl-cdea92d1-aebb-4c94-a9dc-8477a392c696",
+      "chatcmpl-98d58e23-5a67-4a3f-87e1-5339614db6a9",
+      "chatcmpl-5cf64624-aef0-451a-835d-0a99b7d9a1da",
+      "chatcmpl-43a726ae-d385-4aba-9c39-5517a5882358",
+      "chatcmpl-c0ff00b5-00c5-4e97-9af0-88eb189315a3",
+      "chatcmpl-7da11deb-3bad-4b32-9b82-e4ee6e9023e0",
+      "chatcmpl-8a13f61f-63da-4a00-bf22-045272763134",
+      "chatcmpl-4f854f80-24c2-473c-b520-2c7022718dfa",
+      "chatcmpl-f4758f31-cfd0-449f-9096-34bd0a374adc",
+      "chatcmpl-ccbdac32-a92d-48a0-8020-8287e72e14cf",
+      "chatcmpl-0c2833a0-e14c-4cb7-a744-fc549d23ee96",
+      "chatcmpl-55667e00-0d7a-41d1-931b-50294c00ccae",
+      "chatcmpl-a9190a4a-fed0-4b50-a3d9-439756a63ee7",
+      "chatcmpl-e418601e-eeb9-42ae-a4a6-956ceda6c4be",
+      "chatcmpl-cb34e43b-e2dc-413a-b015-000258601960",
+      "chatcmpl-309a76ee-b05d-44fc-bb2f-6d685fcbd76b",
+      "chatcmpl-3776924e-fd99-4243-a1bc-e7cd0e0eae76",
+      "chatcmpl-b9dc85ce-70ba-43bd-9a0a-0733ab489b34",
+      "chatcmpl-b35646c4-c1d6-44ea-996f-16a32f9b85e9",
+      "chatcmpl-1c150842-38cd-48f6-b04b-17aae78d8776",
+      "chatcmpl-83c67a93-cebd-4038-b77f-8701686bbec8",
+      "chatcmpl-15de8725-4dfa-44e1-b323-a69a1ec63668",
+      "chatcmpl-6fd808a8-bb9d-4d57-9a93-981f27ad93c9"
+    ],
+    "retries": 0,
+    "steps": 27,
+    "successes": 27,
+    "uncached": 65352
+  },
+  "wall_seconds": 85.46
+}

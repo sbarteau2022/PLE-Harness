@@ -1,0 +1,146 @@
+{
+  "actual_tool_calls": 26,
+  "closed": true,
+  "deliverables": [
+    {
+      "bytes": 634,
+      "path": "output/summary.md",
+      "sha256": "6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c"
+    },
+    {
+      "bytes": 205,
+      "path": "output/matrix.json",
+      "sha256": "410724ca717dfc59a73961295443fabc5e09bc662d32675015a5554ce0a14324"
+    },
+    {
+      "bytes": 55,
+      "path": "output/receipt.txt",
+      "sha256": "b1cdc3e5272c4c1947634ce4b76dd8c1a86a6047bd4051d65026f2556ad987b9"
+    }
+  ],
+  "ended_at": "2026-11-16T12:30:21.539884+00:00",
+  "events_path": "trajectory.jsonl",
+  "harness": "generic",
+  "live": true,
+  "mint": {
+    "admission": "distillation_admission:yam316qmx3gxixae181r",
+    "atoms": [
+      "atom:2113",
+      "atom:2114",
+      "atom:2115",
+      "atom:2116"
+    ],
+    "kind": "harness-side-observation",
+    "readback": {
+      "atoms": [
+        {
+          "content_digest": "90642e103609b5961dff0cda27f7749dff18e9fdfb8def9405d6c5b119ac78ab",
+          "domain": "S_workflow",
+          "id": "atom:2113"
+        },
+        {
+          "content_digest": "d291fad6a73b9fffd89c436b095de0044d8e2bdc6a151461d6f8859787fde65b",
+          "domain": "S_workflow",
+          "id": "atom:2114"
+        },
+        {
+          "content_digest": "319d8e14c8279336729182b3b36849170cf99c29ee1349fbb5637327446514ed",
+          "domain": "S_workflow",
+          "id": "atom:2115"
+        },
+        {
+          "content_digest": "605f424efbcc40f63b6e6ec1d61adf67efd44ffc9c78538642a4d31cd1e05a23",
+          "domain": "S_workflow",
+          "id": "atom:2116"
+        }
+      ],
+      "steps": 4,
+      "trajectory": "distilled_trajectory:evrn6od9e37ktjto0xxi"
+    },
+    "trajectory": "distilled_trajectory:evrn6od9e37ktjto0xxi"
+  },
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "prescribed_repeated_calls": 6,
+  "requested_calls": 27,
+  "schema_version": 1,
+  "seat": "nemotron-ultra",
+  "started_at": "2026-11-16T12:29:15.050232+00:00",
+  "summary": "Created three output files:\n- output/summary.md (SHA256: 6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c - verified consistent across 6 runs)\n- output/matrix.json\n- output/receipt.txt\n\nAll 8 FACT-IDs (FACT-01 through FACT-08) are included in both summary.md and matrix.json with their corresponding values (value-17 through value-136 in arithmetic progression of +17).",
+  "telemetry": {
+    "by_name": {
+      "bash": 13,
+      "finish": 1,
+      "read_file": 10,
+      "write_file": 3
+    },
+    "cached": 0,
+    "e2e_ms": [
+      1646,
+      1101,
+      2401,
+      797,
+      1091,
+      957,
+      986,
+      968,
+      4158,
+      1225,
+      1126,
+      2648,
+      1538,
+      1680,
+      2073,
+      4765,
+      3703,
+      2469,
+      2219,
+      2198,
+      1773,
+      12319,
+      2056,
+      3698,
+      1225,
+      2250,
+      4862
+    ],
+    "errors": 0,
+    "finish_refusals": 0,
+    "max_context": 3744,
+    "no_progress_turns": 0,
+    "output": 1944,
+    "prompt": 55750,
+    "response_ids": [
+      "chatcmpl-37d1e9fe-a40d-45d8-be51-001846813a14",
+      "chatcmpl-3cd66519-940c-4d07-8f0a-12e1fa2f5d6f",
+      "chatcmpl-cae037f3-6956-429d-9a14-879d72656292",
+      "chatcmpl-36bda41f-0a45-4c59-b20c-1ba33ef22d38",
+      "chatcmpl-c9df67f6-f073-41c1-a45d-755c855b90db",
+      "chatcmpl-798bdde2-b0cd-4121-8454-d2365b365d75",
+      "chatcmpl-05e00c54-f07e-4b05-8251-ed913a809010",
+      "chatcmpl-7f9dc9f0-62c6-47e8-8d40-4525979f923e",
+      "chatcmpl-d73d42a2-97a5-4ecd-9db5-fec068f3d9b9",
+      "chatcmpl-bbde3989-bc4a-47a3-84f2-c5411c2d6654",
+      "chatcmpl-d3ecd1c3-5079-4f49-90b1-4de42e7f852d",
+      "chatcmpl-7842df12-53c9-4874-8561-993894b96363",
+      "chatcmpl-19263e7a-f3a3-4665-8dcd-2291404b4569",
+      "chatcmpl-cc220fa0-1638-4d59-a77e-014f0503932a",
+      "chatcmpl-813d118c-7141-4c05-9451-74a139b4e347",
+      "chatcmpl-dcee32ce-3140-441c-a9dc-fce35baffb5f",
+      "chatcmpl-7df9e341-d41d-41fd-a265-d4f81478668e",
+      "chatcmpl-3dfaba4d-4637-417b-b26a-5306524e8a37",
+      "chatcmpl-1f13e7a0-5d01-4f79-8748-e3f5f4595b8e",
+      "chatcmpl-1dc9a702-6613-4630-840f-8c2bf5cc2b32",
+      "chatcmpl-b077d476-4de5-455e-8de7-949b2665ba4a",
+      "chatcmpl-770240b0-986b-4105-b854-cc62ec52cc93",
+      "chatcmpl-f673cda8-b4b0-40b1-b8be-29062d5e11d7",
+      "chatcmpl-8c414a7a-518a-4146-b0be-262aafb96827",
+      "chatcmpl-c2f623fa-85b3-4668-88ee-b3dad1a69344",
+      "chatcmpl-b1158cdf-ea39-4c91-9dbf-5e9784d8e5ee",
+      "chatcmpl-918a5c9e-6d2b-4b6a-95a4-88501b1789bd"
+    ],
+    "steps": 27,
+    "successes": 27,
+    "uncached": 55750
+  },
+  "wall_seconds": 68.294
+}

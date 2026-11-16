@@ -1,0 +1,43 @@
+# Model manifest for Qwen3.6Cyber, written by scripts/make_model_manifest.py on 2026-11-15.
+# Digests computed from disk. Identity only: no eligibility or judge receipt is implied.
+workspace = globalmind
+method = fresh-globalmind-distillation-v1
+configuration_digest = abd24302c897da5d3c7eb3043821bd18ddf206e3046e89c15ffc33bd97bd5523
+tppe_version = tppe-reference-v1
+tppe_configuration_digest = 07e0dbab82fa9181b1210daadf2eb4f64d46a6a0d799e0e356e29869e09e92de
+
+model.0.provider = local
+model.0.name = Qwen3.6Cyber
+model.0.revision = local-frozen-2026-11-15
+model.0.modality = text
+
+model.0.artifact.0.role = weights-00001
+model.0.artifact.0.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/model-00001-of-00004.safetensors
+model.0.artifact.0.sha256 = 16ee0544b618338e33853d9fc43c25bc4f6d1263e055f7d9a48207b80fdc46dc
+model.0.artifact.1.role = weights-00002
+model.0.artifact.1.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/model-00002-of-00004.safetensors
+model.0.artifact.1.sha256 = 41469c8d9a641f70fa175e4ac11b575a694ac8e8e6c7febe436935e71a083332
+model.0.artifact.2.role = weights-00003
+model.0.artifact.2.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/model-00003-of-00004.safetensors
+model.0.artifact.2.sha256 = 921ea16d5c740e5aac94871a4bb4c9cbfdf69ecea8efbc5753724f2d4325b27b
+model.0.artifact.3.role = weights-00004
+model.0.artifact.3.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/model-00004-of-00004.safetensors
+model.0.artifact.3.sha256 = 3e93f27c04c9e69c9517579f4cf6da12097b038e998d214fe143a64b0b893127
+model.0.artifact.4.role = mtp-weights
+model.0.artifact.4.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/model-mtp.safetensors
+model.0.artifact.4.sha256 = 5e73b5d07a55db699de850c65ec6620faee2c160884a010c6847c442077c7c5e
+model.0.artifact.5.role = weight-index
+model.0.artifact.5.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/model.safetensors.index.json
+model.0.artifact.5.sha256 = 7935adb26d94780b5a426c666325e0b113884d6d0ab88fbec9d931d496d1a6ce
+model.0.artifact.6.role = model-config
+model.0.artifact.6.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/config.json
+model.0.artifact.6.sha256 = 9088236d00aafaeb9a2e5d76eaf858035995724310e14df292af670f36fa0f52
+model.0.artifact.7.role = tokenizer
+model.0.artifact.7.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/tokenizer.json
+model.0.artifact.7.sha256 = a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f
+model.0.artifact.8.role = tokenizer-config
+model.0.artifact.8.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/tokenizer_config.json
+model.0.artifact.8.sha256 = 855e12b09163ab7d3671f9295e4ce520a9fe97e983907946c763cb5bd2e34de9
+model.0.artifact.9.role = chat-template
+model.0.artifact.9.path = /Users/stewartbarteau/Desktop/Qwen3.6Cyber/chat_template.jinja
+model.0.artifact.9.sha256 = 55d4931433fe502b794226ee7f4d206a6bdd436ac9f80eb7d8ebb4c639f9ea0c

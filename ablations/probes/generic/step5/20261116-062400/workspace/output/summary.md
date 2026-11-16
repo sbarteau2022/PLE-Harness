@@ -1,0 +1,16 @@
+# Summary
+
+Synthesis of all FACT-IDs recovered from the input files.
+
+- FACT-01: value-17
+- FACT-02: value-34
+- FACT-03: value-51
+- FACT-04: value-68
+- FACT-05: value-85
+- FACT-06: value-102
+- FACT-07: value-119
+- FACT-08: value-136
+
+Every FACT-ID (FACT-01 through FACT-08) is present above, each mapping to its
+value in the pattern `value-N`, where N increases by 17 starting at 17 and
+ending at 136.

@@ -1,0 +1,265 @@
+{
+  "cells": [
+    {
+      "cached_tokens": 42624,
+      "deliverables": [
+        {
+          "bytes": 509,
+          "path": "output/summary.md",
+          "sha256": "9dc5f0e2e3314670e83969e850bbb6c6383e1544d88eb58f54f1bda21425d8a0"
+        },
+        {
+          "bytes": 206,
+          "path": "output/matrix.json",
+          "sha256": "f66e3a539d4fadc1ed8a2d7abae88331ed74d9df84ed3715929abe2f53e817df"
+        },
+        {
+          "bytes": 56,
+          "path": "output/receipt.txt",
+          "sha256": "5f892f22169bf78d823711cc58de9c96189ecf099b8e38879e5c1a17f8344de1"
+        }
+      ],
+      "evidence": "ablations/probes/generic/mistral/20261116-061941/results.json",
+      "finish_refusals": 0,
+      "harness": "generic",
+      "max_context": 3053,
+      "max_e2e_ms": 14912,
+      "median_e2e_ms": 1138,
+      "mint_readback": true,
+      "minted_atoms": [
+        "atom:2101",
+        "atom:2102",
+        "atom:2103",
+        "atom:2104"
+      ],
+      "minted_trajectory": "distilled_trajectory:7jdfw0vngdkimp3g9yn8",
+      "output_tokens": 2231,
+      "prompt_tokens": 46435,
+      "repeated_calls": 6,
+      "seat": "mistral",
+      "state": "complete",
+      "steps": 27,
+      "tool_calls": 26,
+      "tool_errors": 0,
+      "trajectory": "ablations/probes/generic/mistral/20261116-061941/trajectory.jsonl",
+      "wall_seconds": 66.951
+    },
+    {
+      "cached_tokens": 44416,
+      "deliverables": [
+        {
+          "bytes": 881,
+          "path": "output/summary.md",
+          "sha256": "33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9"
+        },
+        {
+          "bytes": 206,
+          "path": "output/matrix.json",
+          "sha256": "f66e3a539d4fadc1ed8a2d7abae88331ed74d9df84ed3715929abe2f53e817df"
+        },
+        {
+          "bytes": 79,
+          "path": "output/receipt.txt",
+          "sha256": "0f6bcf5e301211a147152ece43e6680747700429008d481e882b77dec69e0e5d"
+        }
+      ],
+      "evidence": "ablations/probes/ple/mistral/20261116-062106/results.json",
+      "finish_refusals": 0,
+      "harness": "ple",
+      "max_context": 3236,
+      "max_e2e_ms": 45951,
+      "median_e2e_ms": 1026,
+      "mint_readback": true,
+      "minted_atoms": [
+        "atom:2105",
+        "atom:2106",
+        "atom:2107",
+        "atom:2108"
+      ],
+      "minted_trajectory": "distilled_trajectory:g85mggyw3czsy1zu0crr",
+      "output_tokens": 2133,
+      "prompt_tokens": 48536,
+      "repeated_calls": 6,
+      "seat": "mistral",
+      "state": "complete",
+      "steps": 27,
+      "tool_calls": 26,
+      "tool_errors": 0,
+      "trajectory": "ablations/probes/ple/mistral/20261116-062106/trajectory.jsonl",
+      "wall_seconds": 138.412
+    },
+    {
+      "cached_tokens": 48000,
+      "deliverables": [
+        {
+          "bytes": 401,
+          "path": "output/summary.md",
+          "sha256": "806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4"
+        },
+        {
+          "bytes": 205,
+          "path": "output/matrix.json",
+          "sha256": "410724ca717dfc59a73961295443fabc5e09bc662d32675015a5554ce0a14324"
+        },
+        {
+          "bytes": 55,
+          "path": "output/receipt.txt",
+          "sha256": "b1cdc3e5272c4c1947634ce4b76dd8c1a86a6047bd4051d65026f2556ad987b9"
+        }
+      ],
+      "evidence": "ablations/probes/generic/step5/20261116-062400/results.json",
+      "finish_refusals": 0,
+      "harness": "generic",
+      "max_context": 3523,
+      "max_e2e_ms": 35949,
+      "median_e2e_ms": 2133,
+      "mint_readback": true,
+      "minted_atoms": [
+        "atom:2109",
+        "atom:2110",
+        "atom:2111",
+        "atom:2112"
+      ],
+      "minted_trajectory": "distilled_trajectory:g7at16a8exakburb5wo1",
+      "output_tokens": 2169,
+      "prompt_tokens": 53996,
+      "repeated_calls": 6,
+      "seat": "step5",
+      "state": "complete",
+      "steps": 27,
+      "tool_calls": 26,
+      "tool_errors": 0,
+      "trajectory": "ablations/probes/generic/step5/20261116-062400/trajectory.jsonl",
+      "wall_seconds": 143.067
+    },
+    {
+      "cached_tokens": 54592,
+      "deliverables": [
+        {
+          "bytes": 1663,
+          "path": "output/summary.md",
+          "sha256": "5d9c5ad6c5afecee8ae151bdee854708ea88e533b3f16943d91c9db8f649517b"
+        },
+        {
+          "bytes": 205,
+          "path": "output/matrix.json",
+          "sha256": "410724ca717dfc59a73961295443fabc5e09bc662d32675015a5554ce0a14324"
+        },
+        {
+          "bytes": 459,
+          "path": "output/receipt.txt",
+          "sha256": "2234b82dd1718dec266404d29304daf3ee00c5442be1a8743fab132ec078f7c2"
+        }
+      ],
+      "evidence": "ablations/probes/ple/step5/20261116-062626/results.json",
+      "finish_refusals": 0,
+      "harness": "ple",
+      "max_context": 4868,
+      "max_e2e_ms": 48999,
+      "median_e2e_ms": 1216,
+      "mint_readback": false,
+      "minted_atoms": [],
+      "minted_trajectory": null,
+      "output_tokens": 4533,
+      "prompt_tokens": 61959,
+      "repeated_calls": 3,
+      "seat": "step5",
+      "state": "excluded",
+      "steps": 25,
+      "tool_calls": 24,
+      "tool_errors": 1,
+      "trajectory": "ablations/probes/ple/step5/20261116-062626/trajectory.jsonl",
+      "wall_seconds": 152.707
+    },
+    {
+      "cached_tokens": 0,
+      "deliverables": [
+        {
+          "bytes": 634,
+          "path": "output/summary.md",
+          "sha256": "6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c"
+        },
+        {
+          "bytes": 205,
+          "path": "output/matrix.json",
+          "sha256": "410724ca717dfc59a73961295443fabc5e09bc662d32675015a5554ce0a14324"
+        },
+        {
+          "bytes": 55,
+          "path": "output/receipt.txt",
+          "sha256": "b1cdc3e5272c4c1947634ce4b76dd8c1a86a6047bd4051d65026f2556ad987b9"
+        }
+      ],
+      "evidence": "ablations/probes/generic/nemotron-ultra/20261116-062913/results.json",
+      "finish_refusals": 0,
+      "harness": "generic",
+      "max_context": 3744,
+      "max_e2e_ms": 12319,
+      "median_e2e_ms": 2056,
+      "mint_readback": true,
+      "minted_atoms": [
+        "atom:2113",
+        "atom:2114",
+        "atom:2115",
+        "atom:2116"
+      ],
+      "minted_trajectory": "distilled_trajectory:evrn6od9e37ktjto0xxi",
+      "output_tokens": 1944,
+      "prompt_tokens": 55750,
+      "repeated_calls": 6,
+      "seat": "nemotron-ultra",
+      "state": "complete",
+      "steps": 27,
+      "tool_calls": 26,
+      "tool_errors": 0,
+      "trajectory": "ablations/probes/generic/nemotron-ultra/20261116-062913/trajectory.jsonl",
+      "wall_seconds": 68.294
+    },
+    {
+      "cached_tokens": 0,
+      "deliverables": [
+        {
+          "bytes": 432,
+          "path": "output/summary.md",
+          "sha256": "e22a9d197276e41d4a6a38aab0840c4784f8d11f000acd247ee160f830263fa1"
+        },
+        {
+          "bytes": 205,
+          "path": "output/matrix.json",
+          "sha256": "410724ca717dfc59a73961295443fabc5e09bc662d32675015a5554ce0a14324"
+        },
+        {
+          "bytes": 55,
+          "path": "output/receipt.txt",
+          "sha256": "b1cdc3e5272c4c1947634ce4b76dd8c1a86a6047bd4051d65026f2556ad987b9"
+        }
+      ],
+      "evidence": "ablations/probes/ple/nemotron-ultra/20261116-063025/results.json",
+      "finish_refusals": 0,
+      "harness": "ple",
+      "max_context": 4057,
+      "max_e2e_ms": 22570,
+      "median_e2e_ms": 2114,
+      "mint_readback": true,
+      "minted_atoms": [
+        "atom:2117",
+        "atom:2118",
+        "atom:2119",
+        "atom:2120"
+      ],
+      "minted_trajectory": "distilled_trajectory:mtqaailh8bsqmr9pptc9",
+      "output_tokens": 2189,
+      "prompt_tokens": 65352,
+      "repeated_calls": 6,
+      "seat": "nemotron-ultra",
+      "state": "complete",
+      "steps": 27,
+      "tool_calls": 26,
+      "tool_errors": 0,
+      "trajectory": "ablations/probes/ple/nemotron-ultra/20261116-063025/trajectory.jsonl",
+      "wall_seconds": 85.46
+    }
+  ],
+  "probe": "live-multiturn-27-call-v1",
+  "schema_version": 1
+}

@@ -1,0 +1,4 @@
+15 steps (3 repeats) from /Users/stewartbarteau/Desktop/PhyEngLastExam/runs/ple-harness-20261115-083005/attempt1/jobs/dev/wind-diaphragm-shear__LGAVpWo/agent/trajectory.json
+  mistral-large-4-1t-a52b      append step  1          prompt   2680 ttft 287.88s e2e 288.60s cached 0 reuse 0% 
+  mistral-large-4-1t-a52b      append step  2          prompt   4523 ttft 267.98s e2e 267.98s cached 2624 reuse 57% 
+  mistral-large-4-1t-a52b      append step  3          prompt   5301 ttft 171.11s e2e 171.11s cached 4480 reuse 88% 

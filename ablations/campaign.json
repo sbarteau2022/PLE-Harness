@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "campaign": "ple-cross-harness-live-v2",
+  "seed": 20261115,
+  "harness_order": ["generic", "deepseek-harness", "ple"],
+  "superseded_arm": {
+    "name": "harness2",
+    "reason": "replaced by user-selected generic baseline after packaging gate failure",
+    "admitted_runs": 0
+  },
+  "task_suite": {
+    "name": "ple-dev-set-29",
+    "task_root": "../ple-dev-set/tasks",
+    "tasks": [
+      "backfeed-energization-reply", "cooling-water-flush-plan",
+      "data-center-site-model", "data-hall-device-takeoff",
+      "data-hall-mep-routing", "data-hall-mep-routing-offset",
+      "division-26-specifications", "emergency-spillway-check",
+      "engineers-estimate-check", "eor-review-corrections",
+      "fill-compaction-acceptance", "fire-solve-convergence",
+      "fire-test-validation-memo", "footing-settlement-verification",
+      "foundation-strategy", "frame-extension-method",
+      "heat-rejection-life-cycle-cost", "landscape-sheet-revision",
+      "les-mesh-resolution", "lv-cable-sizing", "mv-conveyance-study",
+      "permission-to-operate-memo", "pre-application-capacity-response",
+      "roof-deck-design", "seismic-diaphragm-shear",
+      "shoring-design-verification", "solar-supplemental-review",
+      "solar-witness-test-package", "wind-diaphragm-shear"
+    ]
+  },
+  "budgets": {
+    "max_steps": 400,
+    "max_output_tokens": 16000,
+    "reserve_seconds": 240,
+    "task_timeout_seconds": 3600,
+    "trials": 1
+  },
+  "api_models": [
+    {"seat": "mistral", "model": "mistralai/mistral-large-4-1t-a52b", "base_url": "https://integrate.api.nvidia.com/v1"},
+    {"seat": "step5", "model": "stepfun-ai/step-5-preview", "base_url": "https://integrate.api.nvidia.com/v1"},
+    {"seat": "nemotron-ultra", "model": "nvidia/nemotron-3-ultra-550b-a55b", "base_url": "https://integrate.api.nvidia.com/v1"}
+  ],
+  "local_models": [
+    {"seat": "qwen", "label": "Qwen3.6 Cyber", "endpoint": "http://127.0.0.1:8001/v1", "artifact": "/Users/stewartbarteau/Desktop/Qwen3.6Cyber"},
+    {"seat": "nemo-omni", "label": "Nemotron Omni 30B", "endpoint": "http://127.0.0.1:8002/v1", "artifact": "/Users/stewartbarteau/models/Nemotron-3-Nano-Omni-30B-A3B-MXFP4"},
+    {"seat": "glimmer", "label": "Glimmer 30B", "endpoint": "http://127.0.0.1:8003/v1", "artifact": "/Users/stewartbarteau/models/Muse-Glimmer-q4km-gs128-MLX"}
+  ],
+  "admission": {
+    "live_model_required": true,
+    "all_task_judges_required": true,
+    "closed_receipt_required": true,
+    "atoms_and_trajectory_required": true,
+    "partial_runs_in_final_table": false
+  },
+  "local_mind_ab": {
+    "arms": ["mind_off", "mind_on"],
+    "only_difference": "FRONTIER_MIND",
+    "primary_endpoint": "verified_task_rescue",
+    "require_causal_atom_trace": true,
+    "thrash_detection": {
+      "repeated_identical_tool_call_threshold": 3,
+      "repeated_state_without_judge_progress_threshold": 4,
+      "budget_exhaustion_counts": true
+    }
+  }
+}
+

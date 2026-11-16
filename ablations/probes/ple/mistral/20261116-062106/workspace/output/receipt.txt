@@ -1,0 +1,4 @@
+Output paths:
+1. output/summary.md
+2. output/matrix.json
+3. output/receipt.txt

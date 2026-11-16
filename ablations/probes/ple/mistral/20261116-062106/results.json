@@ -1,0 +1,147 @@
+{
+  "actual_tool_calls": 26,
+  "closed": true,
+  "deliverables": [
+    {
+      "bytes": 881,
+      "path": "output/summary.md",
+      "sha256": "33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9"
+    },
+    {
+      "bytes": 206,
+      "path": "output/matrix.json",
+      "sha256": "f66e3a539d4fadc1ed8a2d7abae88331ed74d9df84ed3715929abe2f53e817df"
+    },
+    {
+      "bytes": 79,
+      "path": "output/receipt.txt",
+      "sha256": "0f6bcf5e301211a147152ece43e6680747700429008d481e882b77dec69e0e5d"
+    }
+  ],
+  "ended_at": "2026-11-16T12:23:24.413810+00:00",
+  "events_path": "trajectory.jsonl",
+  "harness": "ple",
+  "live": true,
+  "mint": {
+    "admission": "distillation_admission:sl980eybpx0i1gd0f4ku",
+    "atoms": [
+      "atom:2105",
+      "atom:2106",
+      "atom:2107",
+      "atom:2108"
+    ],
+    "kind": "harness-side-observation",
+    "readback": {
+      "atoms": [
+        {
+          "content_digest": "2bc45e3dd3f09a03386ee79135afe2dc1cd42347ac4a07d30f05122480fe28b6",
+          "domain": "S_workflow",
+          "id": "atom:2105"
+        },
+        {
+          "content_digest": "6efff9d14f70ce401a3f4a50e73632791e404cfa2abeeabdb7ccb6aae7bf2e5d",
+          "domain": "S_workflow",
+          "id": "atom:2106"
+        },
+        {
+          "content_digest": "82db650523715017b8b3383f194d6bde9a7f43f011f87bda945a65d761e7225f",
+          "domain": "S_workflow",
+          "id": "atom:2107"
+        },
+        {
+          "content_digest": "4e45ab450f37581a9cc19f037b3b2b1da3bbba8c920055ca75469f853ba681f1",
+          "domain": "S_workflow",
+          "id": "atom:2108"
+        }
+      ],
+      "steps": 4,
+      "trajectory": "distilled_trajectory:g85mggyw3czsy1zu0crr"
+    },
+    "trajectory": "distilled_trajectory:g85mggyw3czsy1zu0crr"
+  },
+  "model": "mistralai/mistral-large-4-1t-a52b",
+  "prescribed_repeated_calls": 6,
+  "requested_calls": 27,
+  "schema_version": 1,
+  "seat": "mistral",
+  "started_at": "2026-11-16T12:21:07.375792+00:00",
+  "summary": "Completed all 27 steps in order. Read all eight inputs (FACT-01 through FACT-08, values value-17 through value-136, an arithmetic sequence with common difference 17), ran the requested shell diagnostics (wc -l: 1 line per file, 8 total; awk NF on fact-1: 2; sort/uniq/shasum on facts 2\u20134, with fact-4 SHA-256 bb06d449...cc87d), and wrote the three deliverables: output/summary.md (synthesis containing every FACT-ID), output/matrix.json (JSON mapping all eight FACT-IDs to their values), and output/receipt.txt (listing the three output paths). The six repeated `shasum -a 256 output/summary.md` calls (items 19\u201324) all returned the identical digest 33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9, confirming full checksum agreement across repetitions (expected, since SHA-256 is deterministic and the file was unchanged). Final read-backs of summary.md and matrix.json verified both files are intact and correct.",
+  "telemetry": {
+    "by_name": {
+      "bash": 13,
+      "finish": 1,
+      "read_file": 10,
+      "write_file": 3
+    },
+    "cached": 44416,
+    "e2e_ms": [
+      1175,
+      711,
+      839,
+      1982,
+      750,
+      382,
+      451,
+      1026,
+      408,
+      1120,
+      947,
+      473,
+      376,
+      762,
+      653,
+      45951,
+      3037,
+      1266,
+      652,
+      1814,
+      1253,
+      18219,
+      8864,
+      13856,
+      23675,
+      414,
+      6856
+    ],
+    "errors": 0,
+    "finish_refusals": 0,
+    "max_context": 3236,
+    "no_progress_turns": 0,
+    "output": 2133,
+    "prompt": 48536,
+    "response_ids": [
+      "chatcmpl-24b98b61-6d80-4213-9754-8c1135841bd1",
+      "chatcmpl-44bc4ae6-61ff-4549-9593-8656d39927e6",
+      "chatcmpl-fd910e51-3658-45a6-a0df-241aa9061f47",
+      "chatcmpl-56c42c2e-78fd-4574-8bd8-e38fd3173c09",
+      "chatcmpl-66e5003d-e45a-4b88-b31e-cee51625addb",
+      "chatcmpl-030bdb9b-a4d5-4bb9-ae99-7c04247d24c4",
+      "chatcmpl-bc0053d0-a9fb-4ad6-8263-a24dd4c0a57c",
+      "chatcmpl-1795662d-c8da-4b35-891f-0023482929dc",
+      "chatcmpl-b6818a27-3062-44cd-a3eb-bda95d0dec96",
+      "chatcmpl-d6bd96d3-2ea9-43b2-98cc-a0817621ffa4",
+      "chatcmpl-cf04b0bb-fa0a-4f5c-b5c8-ec83cd48c070",
+      "chatcmpl-c94afe86-af83-41e3-88da-da3a9761168b",
+      "chatcmpl-df00adff-e7a1-4c33-bd99-596b4ec32ce9",
+      "chatcmpl-b9e371ce-c39b-4742-8a54-6273b51042e6",
+      "chatcmpl-572be10f-844c-4975-a653-7c8d6f7c942b",
+      "chatcmpl-9dae1b77-e579-4e71-a435-ae314fd75d90",
+      "chatcmpl-eec069b7-b9d4-41a2-9cbf-2b4f3cb09f0c",
+      "chatcmpl-184050b4-33bd-445e-9bc7-bc4f53717dfa",
+      "chatcmpl-ad627e4f-0d06-4545-932e-880e414ea7a5",
+      "chatcmpl-21e95b19-9dbd-492b-a5af-4083b7fdd141",
+      "chatcmpl-55fbb220-534e-468d-b1cf-2cfae57c89c7",
+      "chatcmpl-b93e42cd-27f8-4adb-8f4c-ab4579956b08",
+      "chatcmpl-1789d13a-b188-4581-a816-001b897b6aa9",
+      "chatcmpl-e03f1ba3-1df2-4f1c-a393-19d361b1893b",
+      "chatcmpl-5de21544-a764-429d-b461-59e61c40c6f0",
+      "chatcmpl-310a9276-bcfc-4b57-913b-7515a7ae02d5",
+      "chatcmpl-4a65b1cb-2f01-4f96-b2f6-070f30cd6429"
+    ],
+    "retries": 0,
+    "steps": 27,
+    "successes": 27,
+    "uncached": 4120
+  },
+  "wall_seconds": 138.412
+}

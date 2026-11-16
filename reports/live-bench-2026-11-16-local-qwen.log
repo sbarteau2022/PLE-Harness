@@ -1,0 +1,54 @@
+9 steps (1 repeats) from /Users/stewartbarteau/Desktop/PhyEngLastExam/runs/ple-harness-20261115-083005/attempt1/jobs/dev/wind-diaphragm-shear__LGAVpWo/agent/trajectory.json
+  Qwen3.6Cyber                 append step  1          prompt   2930 ttft   1.67s e2e   3.47s cached 0 reuse 0% 
+  Qwen3.6Cyber                 append step  2          prompt   4852 ttft   0.75s e2e   2.44s cached 2929 reuse 57% 
+  Qwen3.6Cyber                 append step  3          prompt   5714 ttft   0.40s e2e   2.81s cached 4851 reuse 88% 
+  Qwen3.6Cyber                 append step  4          prompt   6284 ttft   0.30s e2e   2.58s cached 5713 reuse 92% 
+  Qwen3.6Cyber                 append step  5          prompt  11176 ttft   2.33s e2e   4.85s cached 6283 reuse 55% 
+  Qwen3.6Cyber                 append step  6 (repeat) prompt  12625 ttft   0.68s e2e   3.27s cached 11175 reuse 88% 
+  Qwen3.6Cyber                 append step  7          prompt  13487 ttft   0.48s e2e   3.06s cached 12624 reuse 95% 
+  Qwen3.6Cyber                 append step  8          prompt  30882 ttft   9.13s e2e  12.05s cached 13486 reuse 67% 
+  Qwen3.6Cyber                 append step  9          prompt  32841 ttft   1.30s e2e   3.79s cached 30881 reuse 95% 
+  Qwen3.6Cyber                 carved step  1          prompt   2929 ttft   1.21s e2e   2.88s cached 0 reuse 0% 
+  Qwen3.6Cyber                 carved step  2          prompt   4851 ttft   0.74s e2e   2.66s cached 2928 reuse 57% 
+  Qwen3.6Cyber                 carved step  3          prompt   5713 ttft   0.40s e2e   2.81s cached 4850 reuse 88% 
+  Qwen3.6Cyber                 carved step  4          prompt   6283 ttft   0.31s e2e   2.54s cached 5712 reuse 92% 
+  Qwen3.6Cyber                 carved step  5          prompt   9306 ttft   3.10s e2e   5.56s cached 933 reuse 31% 
+  Qwen3.6Cyber                 carved step  6 (repeat) prompt   4431 ttft   1.25s e2e   3.48s cached 933 reuse 64% 
+  Qwen3.6Cyber                 carved step  7          prompt   5293 ttft   0.39s e2e   1.37s cached 4430 reuse 87% 
+  Qwen3.6Cyber                 carved step  8          prompt  20377 ttft   8.00s e2e  10.43s cached 933 reuse 30% 
+  Qwen3.6Cyber                 carved step  9          prompt   4941 ttft   1.64s e2e   4.05s cached 933 reuse 72% 
+{
+ "/Users/stewartbarteau/Desktop/Qwen3.6Cyber": {
+  "regular_append_only": {
+   "calls": 9,
+   "errors": 0,
+   "prompt_tokens": 120791,
+   "output_tokens": 1640,
+   "ttft_median": 0.7453821670205798,
+   "decode_tps_median": 79.47444477885345,
+   "e2e_median": 3.266168292000657,
+   "e2e_total": 38.30906016702647,
+   "cached_reported": true,
+   "cached_tokens": 87942,
+   "cache_hit_rate": 0.728050930946842,
+   "prefix_reuse_mean": 0.7949591210639756,
+   "repeat_steps": 1
+  },
+  "ple_harness_carved": {
+   "calls": 9,
+   "errors": 0,
+   "prompt_tokens": 64124,
+   "output_tokens": 1522,
+   "ttft_median": 1.2106395840237383,
+   "decode_tps_median": 82.8444152060307,
+   "e2e_median": 2.883091959025478,
+   "e2e_total": 35.78098258309183,
+   "cached_reported": true,
+   "cached_tokens": 21652,
+   "cache_hit_rate": 0.3376582870688042,
+   "prefix_reuse_mean": 0.6507429847525334,
+   "repeat_steps": 1
+  }
+ }
+}
+EXIT 0

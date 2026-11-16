@@ -1,0 +1,80 @@
+{"at": "2026-11-16T12:29:15.050232+00:00", "cache_read_tokens": 0, "input_tokens": 906, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 36}
+{"at": "2026-11-16T12:29:15.057983+00:00", "command": "pwd", "exit_code": 0, "kind": "tool", "ms": 8, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:15.058026+00:00", "kind": "harness_log", "text": "generic step 1: bash -> 'exit_code=0\\n/Users/stewartbarteau/Desktop/PhyEngLastExam/harness/ablations/probes/generic/nemotron-ultra/20261116-062913/workspace\\n'"}
+{"at": "2026-11-16T12:29:16.158887+00:00", "cache_read_tokens": 0, "input_tokens": 1000, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 44}
+{"at": "2026-11-16T12:29:16.169531+00:00", "command": "find inputs -type f | sort", "exit_code": 0, "kind": "tool", "ms": 11, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:16.169581+00:00", "kind": "harness_log", "text": "generic step 2: bash -> 'exit_code=0\\ninputs/fact-1.txt\\ninputs/fact-2.txt\\ninputs/fact-3.txt\\ninputs/fact-4.txt\\ninputs/fact-5.txt\\ninputs/fact-6.txt\\ninputs/fact-7.txt\\ninputs/fact-8.txt\\n'"}
+{"at": "2026-11-16T12:29:18.570755+00:00", "cache_read_tokens": 0, "input_tokens": 1107, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 40}
+{"at": "2026-11-16T12:29:18.570971+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-1.txt"}
+{"at": "2026-11-16T12:29:18.570977+00:00", "kind": "harness_log", "text": "generic step 3: read_file -> 'FACT-01: value-17\\n'"}
+{"at": "2026-11-16T12:29:19.368431+00:00", "cache_read_tokens": 0, "input_tokens": 1164, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 40}
+{"at": "2026-11-16T12:29:19.368626+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-2.txt"}
+{"at": "2026-11-16T12:29:19.368633+00:00", "kind": "harness_log", "text": "generic step 4: read_file -> 'FACT-02: value-34\\n'"}
+{"at": "2026-11-16T12:29:20.459481+00:00", "cache_read_tokens": 0, "input_tokens": 1221, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 42}
+{"at": "2026-11-16T12:29:20.459652+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-3.txt"}
+{"at": "2026-11-16T12:29:20.459657+00:00", "kind": "harness_log", "text": "generic step 5: read_file -> 'FACT-03: value-51\\n'"}
+{"at": "2026-11-16T12:29:21.416767+00:00", "cache_read_tokens": 0, "input_tokens": 1278, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 38}
+{"at": "2026-11-16T12:29:21.416960+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-4.txt"}
+{"at": "2026-11-16T12:29:21.416965+00:00", "kind": "harness_log", "text": "generic step 6: read_file -> 'FACT-04: value-68\\n'"}
+{"at": "2026-11-16T12:29:22.403085+00:00", "cache_read_tokens": 0, "input_tokens": 1335, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 40}
+{"at": "2026-11-16T12:29:22.403261+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-5.txt"}
+{"at": "2026-11-16T12:29:22.403266+00:00", "kind": "harness_log", "text": "generic step 7: read_file -> 'FACT-05: value-85\\n'"}
+{"at": "2026-11-16T12:29:23.371011+00:00", "cache_read_tokens": 0, "input_tokens": 1392, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 40}
+{"at": "2026-11-16T12:29:23.371175+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-6.txt"}
+{"at": "2026-11-16T12:29:23.371180+00:00", "kind": "harness_log", "text": "generic step 8: read_file -> 'FACT-06: value-102\\n'"}
+{"at": "2026-11-16T12:29:27.529134+00:00", "cache_read_tokens": 0, "input_tokens": 1450, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 71}
+{"at": "2026-11-16T12:29:27.529307+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-7.txt"}
+{"at": "2026-11-16T12:29:27.529312+00:00", "kind": "harness_log", "text": "generic step 9: read_file -> 'FACT-07: value-119\\n'"}
+{"at": "2026-11-16T12:29:28.754302+00:00", "cache_read_tokens": 0, "input_tokens": 1508, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 44}
+{"at": "2026-11-16T12:29:28.754484+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-8.txt"}
+{"at": "2026-11-16T12:29:28.754489+00:00", "kind": "harness_log", "text": "generic step 10: read_file -> 'FACT-08: value-136\\n'"}
+{"at": "2026-11-16T12:29:29.880011+00:00", "cache_read_tokens": 0, "input_tokens": 1566, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 45}
+{"at": "2026-11-16T12:29:29.888731+00:00", "command": "wc -l inputs/*.txt", "exit_code": 0, "kind": "tool", "ms": 9, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:29.888760+00:00", "kind": "harness_log", "text": "generic step 11: bash -> 'exit_code=0\\n       1 inputs/fact-1.txt\\n       1 inputs/fact-2.txt\\n       1 inputs/fact-3.txt\\n       1 inputs/fact-4.txt\\n       1 inputs/fact-5.txt\\n       1 inpu'"}
+{"at": "2026-11-16T12:29:32.536308+00:00", "cache_read_tokens": 0, "input_tokens": 1701, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 61}
+{"at": "2026-11-16T12:29:32.545066+00:00", "command": "awk '{print NF}' inputs/fact-1.txt", "exit_code": 0, "kind": "tool", "ms": 9, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:32.545097+00:00", "kind": "harness_log", "text": "generic step 12: bash -> 'exit_code=0\\n2\\n'"}
+{"at": "2026-11-16T12:29:34.083496+00:00", "cache_read_tokens": 0, "input_tokens": 1758, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 39}
+{"at": "2026-11-16T12:29:34.092339+00:00", "command": "sort inputs/fact-2.txt", "exit_code": 0, "kind": "tool", "ms": 9, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:34.092365+00:00", "kind": "harness_log", "text": "generic step 13: bash -> 'exit_code=0\\nFACT-02: value-34\\n'"}
+{"at": "2026-11-16T12:29:35.772692+00:00", "cache_read_tokens": 0, "input_tokens": 1820, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 48}
+{"at": "2026-11-16T12:29:35.780920+00:00", "command": "uniq -c inputs/fact-3.txt", "exit_code": 0, "kind": "tool", "ms": 8, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:35.780948+00:00", "kind": "harness_log", "text": "generic step 14: bash -> 'exit_code=0\\n   1 FACT-03: value-51\\n'"}
+{"at": "2026-11-16T12:29:37.854060+00:00", "cache_read_tokens": 0, "input_tokens": 1888, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 54}
+{"at": "2026-11-16T12:29:37.886196+00:00", "command": "shasum -a 256 inputs/fact-4.txt", "exit_code": 0, "kind": "tool", "ms": 32, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:37.886229+00:00", "kind": "harness_log", "text": "generic step 15: bash -> 'exit_code=0\\nbb06d449f89f647fbf6ee14266ad6f59e5480d8074f075d9236add1e512cc87d  inputs/fact-4.txt\\n'"}
+{"at": "2026-11-16T12:29:42.651101+00:00", "cache_read_tokens": 0, "input_tokens": 2012, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 292}
+{"at": "2026-11-16T12:29:42.651403+00:00", "bytes": 634, "kind": "tool", "name": "write_file", "ok": true, "path": "output/summary.md"}
+{"at": "2026-11-16T12:29:42.651411+00:00", "kind": "harness_log", "text": "generic step 16: write_file -> 'ok: wrote 634 bytes'"}
+{"at": "2026-11-16T12:29:46.354805+00:00", "cache_read_tokens": 0, "input_tokens": 2304, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 176}
+{"at": "2026-11-16T12:29:46.355118+00:00", "bytes": 205, "kind": "tool", "name": "write_file", "ok": true, "path": "output/matrix.json"}
+{"at": "2026-11-16T12:29:46.355125+00:00", "kind": "harness_log", "text": "generic step 17: write_file -> 'ok: wrote 205 bytes'"}
+{"at": "2026-11-16T12:29:48.824160+00:00", "cache_read_tokens": 0, "input_tokens": 2482, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 68}
+{"at": "2026-11-16T12:29:48.824439+00:00", "bytes": 55, "kind": "tool", "name": "write_file", "ok": true, "path": "output/receipt.txt"}
+{"at": "2026-11-16T12:29:48.824446+00:00", "kind": "harness_log", "text": "generic step 18: write_file -> 'ok: wrote 55 bytes'"}
+{"at": "2026-11-16T12:29:51.043225+00:00", "cache_read_tokens": 0, "input_tokens": 2558, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 71}
+{"at": "2026-11-16T12:29:51.061760+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 19, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:51.061807+00:00", "kind": "harness_log", "text": "generic step 19: bash -> 'exit_code=0\\n6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c  output/summary.md\\n'"}
+{"at": "2026-11-16T12:29:53.259477+00:00", "cache_read_tokens": 0, "input_tokens": 2683, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 67}
+{"at": "2026-11-16T12:29:53.276953+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 17, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:53.276993+00:00", "kind": "harness_log", "text": "generic step 20: bash -> 'exit_code=0\\n6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c  output/summary.md\\n'"}
+{"at": "2026-11-16T12:29:55.050012+00:00", "cache_read_tokens": 0, "input_tokens": 2808, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 55}
+{"at": "2026-11-16T12:29:55.068419+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 18, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:29:55.068451+00:00", "kind": "harness_log", "text": "generic step 21: bash -> 'exit_code=0\\n6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c  output/summary.md\\n'"}
+{"at": "2026-11-16T12:30:07.387290+00:00", "cache_read_tokens": 0, "input_tokens": 2933, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 52}
+{"at": "2026-11-16T12:30:07.402509+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 15, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:30:07.402543+00:00", "kind": "harness_log", "text": "generic step 22: bash -> 'exit_code=0\\n6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c  output/summary.md\\n'"}
+{"at": "2026-11-16T12:30:09.458379+00:00", "cache_read_tokens": 0, "input_tokens": 3058, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 60}
+{"at": "2026-11-16T12:30:09.488213+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 30, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:30:09.488270+00:00", "kind": "harness_log", "text": "generic step 23: bash -> 'exit_code=0\\n6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c  output/summary.md\\n'"}
+{"at": "2026-11-16T12:30:13.185880+00:00", "cache_read_tokens": 0, "input_tokens": 3183, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 60}
+{"at": "2026-11-16T12:30:13.200750+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 15, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:30:13.200783+00:00", "kind": "harness_log", "text": "generic step 24: bash -> 'exit_code=0\\n6d899f898a76a677b8ffe852b094546d542b07a31e0fba51cba8d22399f1f63c  output/summary.md\\n'"}
+{"at": "2026-11-16T12:30:14.425724+00:00", "cache_read_tokens": 0, "input_tokens": 3308, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 55}
+{"at": "2026-11-16T12:30:14.426466+00:00", "bytes": 634, "kind": "tool", "name": "read_file", "ok": true, "path": "output/summary.md"}
+{"at": "2026-11-16T12:30:14.426486+00:00", "kind": "harness_log", "text": "generic step 25: read_file -> '# Summary of Facts\\n\\nThis document synthesizes all 8 facts from the input files.\\n\\n## Fact Inventory\\n\\n| FACT-ID | Value |\\n|---------|-------|\\n| FACT-01 | value-17'"}
+{"at": "2026-11-16T12:30:16.676673+00:00", "cache_read_tokens": 0, "input_tokens": 3583, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 41}
+{"at": "2026-11-16T12:30:16.677022+00:00", "bytes": 205, "kind": "tool", "name": "read_file", "ok": true, "path": "output/matrix.json"}
+{"at": "2026-11-16T12:30:16.677042+00:00", "kind": "harness_log", "text": "generic step 26: read_file -> '{\\n  \"FACT-01\": \"value-17\",\\n  \"FACT-02\": \"value-34\",\\n  \"FACT-03\": \"value-51\",\\n  \"FACT-04\": \"value-68\",\\n  \"FACT-05\": \"value-85\",\\n  \"FACT-06\": \"value-102\",\\n  \"FACT'"}
+{"at": "2026-11-16T12:30:21.538802+00:00", "cache_read_tokens": 0, "input_tokens": 3744, "kind": "usage", "model": "nvidia/nemotron-3-ultra-550b-a55b", "output_tokens": 265}
+{"at": "2026-11-16T12:30:21.538849+00:00", "kind": "harness_log", "text": "generic step 27: finish -> 'ok'"}

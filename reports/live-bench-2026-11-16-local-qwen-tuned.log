@@ -1,0 +1,65 @@
+15 steps (3 repeats) from /Users/stewartbarteau/Desktop/PhyEngLastExam/runs/ple-harness-20261115-083005/attempt1/jobs/dev/wind-diaphragm-shear__LGAVpWo/agent/trajectory.json
+  Qwen3.6Cyber                 append step  1          prompt   2929 ttft   1.37s e2e   3.02s cached 0 reuse 0% 
+  Qwen3.6Cyber                 append step  2          prompt   4851 ttft   0.74s e2e   3.11s cached 2928 reuse 57% 
+  Qwen3.6Cyber                 append step  3          prompt   5713 ttft   0.39s e2e   2.79s cached 4850 reuse 88% 
+  Qwen3.6Cyber                 append step  4          prompt   6283 ttft   0.31s e2e   2.58s cached 5712 reuse 92% 
+  Qwen3.6Cyber                 append step  5          prompt  11175 ttft   2.00s e2e   4.52s cached 6282 reuse 55% 
+  Qwen3.6Cyber                 append step  6 (repeat) prompt  12624 ttft   0.68s e2e   2.63s cached 11174 reuse 88% 
+  Qwen3.6Cyber                 append step  7          prompt  13486 ttft   0.48s e2e   3.07s cached 12623 reuse 95% 
+  Qwen3.6Cyber                 append step  8          prompt  30881 ttft   9.02s e2e  11.95s cached 13485 reuse 67% 
+  Qwen3.6Cyber                 append step  9          prompt  32840 ttft   1.28s e2e   3.78s cached 30880 reuse 95% 
+  Qwen3.6Cyber                 append step 10          prompt  34445 ttft   1.10s e2e   4.09s cached 32839 reuse 93% 
+  Qwen3.6Cyber                 append step 11 (repeat) prompt  39614 ttft   3.50s e2e   6.58s cached 34444 reuse 89% 
+  Qwen3.6Cyber                 append step 12          prompt  44506 ttft   3.65s e2e   6.85s cached 39613 reuse 84% 
+  Qwen3.6Cyber                 append step 13          prompt  55863 ttft   9.06s e2e  12.35s cached 44505 reuse 84% 
+  Qwen3.6Cyber                 append step 14          prompt  63309 ttft   6.71s e2e  10.12s cached 55862 reuse 89% 
+  Qwen3.6Cyber                 append step 15 (repeat) prompt  64855 ttft   1.57s e2e   5.10s cached 63308 reuse 97% 
+  Qwen3.6Cyber                 carved step  1          prompt   2932 ttft   1.22s e2e   2.91s cached 0 reuse 0% 
+  Qwen3.6Cyber                 carved step  2          prompt   4854 ttft   0.75s e2e   3.12s cached 2931 reuse 57% 
+  Qwen3.6Cyber                 carved step  3          prompt   5716 ttft   0.40s e2e   2.83s cached 4853 reuse 88% 
+  Qwen3.6Cyber                 carved step  4          prompt   6286 ttft   0.31s e2e   2.54s cached 5715 reuse 92% 
+  Qwen3.6Cyber                 carved step  5          prompt  11178 ttft   2.02s e2e   4.58s cached 6285 reuse 55% 
+  Qwen3.6Cyber                 carved step  6 (repeat) prompt  12627 ttft   0.69s e2e   3.25s cached 11177 reuse 88% 
+  Qwen3.6Cyber                 carved step  7          prompt  13489 ttft   0.49s e2e   3.08s cached 12626 reuse 95% 
+  Qwen3.6Cyber                 carved step  8          prompt  30884 ttft   9.13s e2e  12.10s cached 13488 reuse 67% 
+  Qwen3.6Cyber                 carved step  9          prompt  32843 ttft   1.30s e2e   4.29s cached 30883 reuse 95% 
+  Qwen3.6Cyber                 carved step 10          prompt  34448 ttft   1.11s e2e   4.14s cached 32842 reuse 93% 
+  Qwen3.6Cyber                 carved step 11 (repeat) prompt  39617 ttft   3.68s e2e   6.76s cached 34447 reuse 89% 
+  Qwen3.6Cyber                 carved step 12          prompt  44509 ttft   3.74s e2e   6.90s cached 39616 reuse 84% 
+  Qwen3.6Cyber                 carved step 13          prompt  55866 ttft   9.01s e2e  12.24s cached 44508 reuse 84% 
+  Qwen3.6Cyber                 carved step 14          prompt  63312 ttft   6.70s e2e  10.10s cached 55865 reuse 89% 
+  Qwen3.6Cyber                 carved step 15 (repeat) prompt  64858 ttft   1.56s e2e   5.09s cached 63311 reuse 97% 
+{
+ "/Users/stewartbarteau/Desktop/Qwen3.6Cyber": {
+  "regular_append_only": {
+   "calls": 15,
+   "errors": 0,
+   "prompt_tokens": 423374,
+   "output_tokens": 2834,
+   "ttft_median": 1.3735223330149893,
+   "decode_tps_median": 68.16743138340122,
+   "e2e_median": 4.086390207987279,
+   "e2e_total": 82.55917420695187,
+   "cached_reported": true,
+   "cached_tokens": 358505,
+   "cache_hit_rate": 0.8467808604212823,
+   "prefix_reuse_mean": 0.8364561531437615,
+   "repeat_steps": 3
+  },
+  "ple_harness_carved": {
+   "calls": 15,
+   "errors": 0,
+   "prompt_tokens": 423419,
+   "output_tokens": 2902,
+   "ttft_median": 1.2976188749889843,
+   "decode_tps_median": 67.3222120385557,
+   "e2e_median": 4.286627749999752,
+   "e2e_total": 83.9304447080649,
+   "cached_reported": true,
+   "cached_tokens": 358547,
+   "cache_hit_rate": 0.8467900590195527,
+   "prefix_reuse_mean": 0.8364561531437615,
+   "repeat_steps": 3
+  }
+ }
+}

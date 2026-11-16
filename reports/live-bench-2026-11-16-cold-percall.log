@@ -1,0 +1,65 @@
+15 steps (3 repeats) from /Users/stewartbarteau/Desktop/PhyEngLastExam/runs/ple-harness-20261115-083005/attempt1/jobs/dev/wind-diaphragm-shear__LGAVpWo/agent/trajectory.json
+  nemotron-3-ultra-550b-a55b   append step  1          prompt   2967 ttft   1.54s e2e   2.50s cached 0 reuse 0% 
+  nemotron-3-ultra-550b-a55b   append step  2          prompt   4901 ttft   0.83s e2e   3.02s cached 0 reuse 57% 
+  nemotron-3-ultra-550b-a55b   append step  3          prompt   5823 ttft   1.74s e2e   2.42s cached 0 reuse 88% 
+  nemotron-3-ultra-550b-a55b   append step  4          prompt   6395 ttft   1.57s e2e   3.36s cached 4384 reuse 92% 
+  nemotron-3-ultra-550b-a55b   append step  5          prompt  11226 ttft   1.38s e2e   3.31s cached 0 reuse 55% 
+  nemotron-3-ultra-550b-a55b   append step  6 (repeat) prompt  12669 ttft   1.24s e2e   1.84s cached 8768 reuse 88% 
+  nemotron-3-ultra-550b-a55b   append step  7          prompt  13591 ttft   1.15s e2e   2.48s cached 8768 reuse 95% 
+  nemotron-3-ultra-550b-a55b   append step  8          prompt  32076 ttft   1.94s e2e   3.14s cached 0 reuse 67% 
+  nemotron-3-ultra-550b-a55b   append step  9          prompt  34121 ttft   2.70s e2e  12.02s cached 0 reuse 95% 
+  nemotron-3-ultra-550b-a55b   append step 10          prompt  35737 ttft   2.25s e2e   4.09s cached 30688 reuse 93% 
+  nemotron-3-ultra-550b-a55b   append step 11 (repeat) prompt  41065 ttft   1.72s e2e   3.38s cached 30688 reuse 89% 
+  nemotron-3-ultra-550b-a55b   append step 12          prompt  45896 ttft   1.33s e2e   4.71s cached 35072 reuse 84% 
+  nemotron-3-ultra-550b-a55b   append step 13          prompt  57479 ttft   1.94s e2e   3.38s cached 43840 reuse 84% 
+  nemotron-3-ultra-550b-a55b   append step 14          prompt  65013 ttft   2.06s e2e   4.30s cached 56992 reuse 89% 
+  nemotron-3-ultra-550b-a55b   append step 15 (repeat) prompt  66585 ttft   2.15s e2e   3.50s cached 61376 reuse 97% 
+  nemotron-3-ultra-550b-a55b   carved step  1          prompt   2966 ttft   0.90s e2e   6.25s cached 0 reuse 0% 
+  nemotron-3-ultra-550b-a55b   carved step  2          prompt   4900 ttft   0.90s e2e   2.75s cached 0 reuse 57% 
+  nemotron-3-ultra-550b-a55b   carved step  3          prompt   5822 ttft   1.02s e2e   1.94s cached 0 reuse 88% 
+  nemotron-3-ultra-550b-a55b   carved step  4          prompt   6394 ttft   1.72s e2e  19.56s cached 4384 reuse 92% 
+  nemotron-3-ultra-550b-a55b   carved step  5          prompt   9347 ttft   1.22s e2e  22.64s cached 0 reuse 31% 
+  nemotron-3-ultra-550b-a55b   carved step  6 (repeat) prompt   4465 ttft   1.27s e2e  14.01s cached 0 reuse 64% 
+  nemotron-3-ultra-550b-a55b   carved step  7          prompt   5387 ttft   1.33s e2e   1.74s cached 0 reuse 87% 
+  nemotron-3-ultra-550b-a55b   carved step  8          prompt  21507 ttft   1.32s e2e   1.78s cached 0 reuse 30% 
+  nemotron-3-ultra-550b-a55b   carved step  9          prompt   5067 ttft   2.35s e2e   4.49s cached 0 reuse 72% 
+  nemotron-3-ultra-550b-a55b   carved step 10          prompt   6683 ttft   3.09s e2e   6.07s cached 4384 reuse 72% 
+  nemotron-3-ultra-550b-a55b   carved step 11 (repeat) prompt  12011 ttft   1.65s e2e   4.02s cached 0 reuse 65% 
+  nemotron-3-ultra-550b-a55b   carved step 12          prompt      - ttft   0.00s e2e   0.00s cached None reuse 36% APIConnectionError: Connection error.
+  nemotron-3-ultra-550b-a55b   carved step 13          prompt  14605 ttft   1.63s e2e   4.26s cached 0 reuse 32% 
+  nemotron-3-ultra-550b-a55b   carved step 14          prompt  10556 ttft   1.59s e2e   3.17s cached 0 reuse 38% 
+  nemotron-3-ultra-550b-a55b   carved step 15 (repeat) prompt  12128 ttft   1.47s e2e   2.84s cached 0 reuse 87% 
+{
+ "nvidia/nemotron-3-ultra-550b-a55b": {
+  "regular_append_only": {
+   "calls": 15,
+   "errors": 0,
+   "prompt_tokens": 435544,
+   "output_tokens": 2409,
+   "ttft_median": 1.7196177090227138,
+   "decode_tps_median": 95.45690489903497,
+   "e2e_median": 3.36103916700813,
+   "e2e_total": 57.4418562950741,
+   "cached_reported": true,
+   "cached_tokens": 280576,
+   "cache_hit_rate": 0.6441966827691347,
+   "prefix_reuse_mean": 0.8364561531437615,
+   "repeat_steps": 3
+  },
+  "ple_harness_carved": {
+   "calls": 15,
+   "errors": 1,
+   "prompt_tokens": 121838,
+   "output_tokens": 1839,
+   "ttft_median": 1.3994481039990205,
+   "decode_tps_median": 62.41853949348912,
+   "e2e_median": 4.137807416496798,
+   "e2e_total": 95.495007289981,
+   "cached_reported": true,
+   "cached_tokens": 8768,
+   "cache_hit_rate": 0.07196441175987787,
+   "prefix_reuse_mean": 0.6083879837840149,
+   "repeat_steps": 3
+  }
+ }
+}

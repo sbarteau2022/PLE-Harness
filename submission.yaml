@@ -1,0 +1,13 @@
+# PLE harness (local validation entry). The competition accepts only google-cloud/<id> models;
+# this openai-compatible entry is for local dev-set runs against NVIDIA's hosted API.
+name: ple-harness
+model_api: openai-compatible/mistralai/mistral-large-4-1t-a52b
+model_base_url: https://integrate.api.nvidia.com/v1
+install: >-
+  uv venv --python 3.12 /opt/harness/venv
+  && uv pip install --python /opt/harness/venv/bin/python -r {src}/requirements.txt
+serve: /opt/harness/venv/bin/python {src}/serve.py
+env:
+  MAX_OUTPUT_TOKENS: "16000"
+  COMPACT_AT_TOKENS: "90000"
+  MAX_STEPS: "400"

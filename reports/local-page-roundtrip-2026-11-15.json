@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "endpoint": "http://127.0.0.1:18119",
+  "prefix_tokens": 5,
+  "runtime_identity": {
+    "model_digest": "b2e63fa50bf2d82cf58ac62f5af86f88e041762043b0be14ac5326f0931fab8b",
+    "tokenizer_digest": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+    "adapter_digest": "90573abd762d5b8ecfa777c595bf19ddb87c35803b6cb7b87d8423d9d0b642fe",
+    "spec": {
+      "layers": 52,
+      "kv_heads": 2,
+      "head_dim": 128,
+      "dtype": "f32",
+      "layout": "token_major",
+      "position_contract": "b6da18db80e690ea6ed36da53b7d0aa9aff70841b5fd059c628ac1a8656a63d2"
+    }
+  },
+  "output_ids": [
+    13796,
+    26
+  ],
+  "logits_digest": "4a14508221fd9f5c2508d8ee773451fdd9244c24015575e21a5437c7d001d735",
+  "kv_digest": "2f6e6cbe07fadbc7dcd074e582cdf4af3aa281e73dc396c2e746493a11514d8c",
+  "export_request_digest": "a288203fff5056cd7edcc587f408cb2af4d96cc52d74de60568ddcebf9aac8f1",
+  "export_receipt": "bfa60765b01f6d173dbc925836a947acfdcd2e880f7692e0bf62c7c0ac821df2",
+  "forward_receipt": "9e305f879cd3fa67455e6c6eab26d175d4d86e270b6e23dbf5aea5b2f508e49a",
+  "timing": {
+    "uninterrupted_seconds": 27.316919208999025,
+    "prefix_export_seconds": 4.234642167008133,
+    "import_with_identity_probes_seconds": 3.5573548750107875
+  },
+  "limits": "One real-model token tape; adapter cache roundtrip, no Surreal persistence, independent oracle, sparse attention or TPPE qualification."
+}

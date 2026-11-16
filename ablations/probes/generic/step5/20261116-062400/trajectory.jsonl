@@ -1,0 +1,80 @@
+{"at": "2026-11-16T12:24:02.507797+00:00", "cache_read_tokens": 0, "input_tokens": 806, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 95}
+{"at": "2026-11-16T12:24:02.515605+00:00", "command": "pwd", "exit_code": 0, "kind": "tool", "ms": 8, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:24:02.515640+00:00", "kind": "harness_log", "text": "generic step 1: bash -> 'exit_code=0\\n/Users/stewartbarteau/Desktop/PhyEngLastExam/harness/ablations/probes/generic/step5/20261116-062400/workspace\\n'"}
+{"at": "2026-11-16T12:24:03.702065+00:00", "cache_read_tokens": 704, "input_tokens": 920, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 52}
+{"at": "2026-11-16T12:24:03.723540+00:00", "command": "find inputs -type f | sort", "exit_code": 0, "kind": "tool", "ms": 21, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:24:03.723589+00:00", "kind": "harness_log", "text": "generic step 2: bash -> 'exit_code=0\\ninputs/fact-1.txt\\ninputs/fact-2.txt\\ninputs/fact-3.txt\\ninputs/fact-4.txt\\ninputs/fact-5.txt\\ninputs/fact-6.txt\\ninputs/fact-7.txt\\ninputs/fact-8.txt\\n'"}
+{"at": "2026-11-16T12:24:04.861969+00:00", "cache_read_tokens": 832, "input_tokens": 1037, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:04.862341+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-1.txt"}
+{"at": "2026-11-16T12:24:04.862351+00:00", "kind": "harness_log", "text": "generic step 3: read_file -> 'FACT-01: value-17\\n'"}
+{"at": "2026-11-16T12:24:06.192287+00:00", "cache_read_tokens": 960, "input_tokens": 1102, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:06.192531+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-2.txt"}
+{"at": "2026-11-16T12:24:06.192538+00:00", "kind": "harness_log", "text": "generic step 4: read_file -> 'FACT-02: value-34\\n'"}
+{"at": "2026-11-16T12:24:09.956732+00:00", "cache_read_tokens": 1024, "input_tokens": 1167, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:09.957422+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-3.txt"}
+{"at": "2026-11-16T12:24:09.957442+00:00", "kind": "harness_log", "text": "generic step 5: read_file -> 'FACT-03: value-51\\n'"}
+{"at": "2026-11-16T12:24:17.730658+00:00", "cache_read_tokens": 1088, "input_tokens": 1232, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:17.731284+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-4.txt"}
+{"at": "2026-11-16T12:24:17.731304+00:00", "kind": "harness_log", "text": "generic step 6: read_file -> 'FACT-04: value-68\\n'"}
+{"at": "2026-11-16T12:24:22.167785+00:00", "cache_read_tokens": 1152, "input_tokens": 1297, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:22.168347+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-5.txt"}
+{"at": "2026-11-16T12:24:22.168364+00:00", "kind": "harness_log", "text": "generic step 7: read_file -> 'FACT-05: value-85\\n'"}
+{"at": "2026-11-16T12:24:22.995252+00:00", "cache_read_tokens": 1216, "input_tokens": 1362, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:22.995940+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-6.txt"}
+{"at": "2026-11-16T12:24:22.995958+00:00", "kind": "harness_log", "text": "generic step 8: read_file -> 'FACT-06: value-102\\n'"}
+{"at": "2026-11-16T12:24:33.344481+00:00", "cache_read_tokens": 1280, "input_tokens": 1427, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:33.344649+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-7.txt"}
+{"at": "2026-11-16T12:24:33.344655+00:00", "kind": "harness_log", "text": "generic step 9: read_file -> 'FACT-07: value-119\\n'"}
+{"at": "2026-11-16T12:24:35.100797+00:00", "cache_read_tokens": 1344, "input_tokens": 1492, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:35.101017+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-8.txt"}
+{"at": "2026-11-16T12:24:35.101023+00:00", "kind": "harness_log", "text": "generic step 10: read_file -> 'FACT-08: value-136\\n'"}
+{"at": "2026-11-16T12:24:40.983338+00:00", "cache_read_tokens": 1408, "input_tokens": 1557, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 135}
+{"at": "2026-11-16T12:24:40.991704+00:00", "command": "wc -l inputs/*.txt", "exit_code": 0, "kind": "tool", "ms": 8, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:24:40.991737+00:00", "kind": "harness_log", "text": "generic step 11: bash -> 'exit_code=0\\n       1 inputs/fact-1.txt\\n       1 inputs/fact-2.txt\\n       1 inputs/fact-3.txt\\n       1 inputs/fact-4.txt\\n       1 inputs/fact-5.txt\\n       1 inpu'"}
+{"at": "2026-11-16T12:24:47.739283+00:00", "cache_read_tokens": 1472, "input_tokens": 1695, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 50}
+{"at": "2026-11-16T12:24:47.758539+00:00", "command": "awk '{print NF}' inputs/fact-1.txt", "exit_code": 0, "kind": "tool", "ms": 19, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:24:47.758596+00:00", "kind": "harness_log", "text": "generic step 12: bash -> 'exit_code=0\\n2\\n'"}
+{"at": "2026-11-16T12:24:48.688779+00:00", "cache_read_tokens": 1600, "input_tokens": 1766, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 42}
+{"at": "2026-11-16T12:24:48.697338+00:00", "command": "sort inputs/fact-2.txt", "exit_code": 0, "kind": "tool", "ms": 9, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:24:48.697371+00:00", "kind": "harness_log", "text": "generic step 13: bash -> 'exit_code=0\\nFACT-02: value-34\\n'"}
+{"at": "2026-11-16T12:24:49.716820+00:00", "cache_read_tokens": 1664, "input_tokens": 1836, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 48}
+{"at": "2026-11-16T12:24:49.735233+00:00", "command": "uniq -c inputs/fact-3.txt", "exit_code": 0, "kind": "tool", "ms": 18, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:24:49.735292+00:00", "kind": "harness_log", "text": "generic step 14: bash -> 'exit_code=0\\n   1 FACT-03: value-51\\n'"}
+{"at": "2026-11-16T12:24:51.560258+00:00", "cache_read_tokens": 1728, "input_tokens": 1913, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 54}
+{"at": "2026-11-16T12:24:51.577068+00:00", "command": "shasum -a 256 inputs/fact-4.txt", "exit_code": 0, "kind": "tool", "ms": 17, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:24:51.577096+00:00", "kind": "harness_log", "text": "generic step 15: bash -> 'exit_code=0\\nbb06d449f89f647fbf6ee14266ad6f59e5480d8074f075d9236add1e512cc87d  inputs/fact-4.txt\\n'"}
+{"at": "2026-11-16T12:24:59.856797+00:00", "cache_read_tokens": 1792, "input_tokens": 2030, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 227}
+{"at": "2026-11-16T12:24:59.858088+00:00", "bytes": 401, "kind": "tool", "name": "write_file", "ok": true, "path": "output/summary.md"}
+{"at": "2026-11-16T12:24:59.858113+00:00", "kind": "harness_log", "text": "generic step 16: write_file -> 'ok: wrote 401 bytes'"}
+{"at": "2026-11-16T12:25:02.310410+00:00", "cache_read_tokens": 1920, "input_tokens": 2233, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 144}
+{"at": "2026-11-16T12:25:02.311759+00:00", "bytes": 205, "kind": "tool", "name": "write_file", "ok": true, "path": "output/matrix.json"}
+{"at": "2026-11-16T12:25:02.311784+00:00", "kind": "harness_log", "text": "generic step 17: write_file -> 'ok: wrote 205 bytes'"}
+{"at": "2026-11-16T12:25:03.847988+00:00", "cache_read_tokens": 2112, "input_tokens": 2397, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 65}
+{"at": "2026-11-16T12:25:03.849279+00:00", "bytes": 55, "kind": "tool", "name": "write_file", "ok": true, "path": "output/receipt.txt"}
+{"at": "2026-11-16T12:25:03.849314+00:00", "kind": "harness_log", "text": "generic step 18: write_file -> 'ok: wrote 55 bytes'"}
+{"at": "2026-11-16T12:25:05.585277+00:00", "cache_read_tokens": 2304, "input_tokens": 2482, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 99}
+{"at": "2026-11-16T12:25:05.604529+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 19, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:25:05.604557+00:00", "kind": "harness_log", "text": "generic step 19: bash -> 'exit_code=0\\n806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4  output/summary.md\\n'"}
+{"at": "2026-11-16T12:25:07.737911+00:00", "cache_read_tokens": 2368, "input_tokens": 2599, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 103}
+{"at": "2026-11-16T12:25:07.765549+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 28, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:25:07.765590+00:00", "kind": "harness_log", "text": "generic step 20: bash -> 'exit_code=0\\n806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4  output/summary.md\\n'"}
+{"at": "2026-11-16T12:25:09.268472+00:00", "cache_read_tokens": 2496, "input_tokens": 2716, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 54}
+{"at": "2026-11-16T12:25:09.298568+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 30, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:25:09.298626+00:00", "kind": "harness_log", "text": "generic step 21: bash -> 'exit_code=0\\n806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4  output/summary.md\\n'"}
+{"at": "2026-11-16T12:25:10.286008+00:00", "cache_read_tokens": 2624, "input_tokens": 2833, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 54}
+{"at": "2026-11-16T12:25:10.315905+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 30, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:25:10.315959+00:00", "kind": "harness_log", "text": "generic step 22: bash -> 'exit_code=0\\n806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4  output/summary.md\\n'"}
+{"at": "2026-11-16T12:25:11.322499+00:00", "cache_read_tokens": 2752, "input_tokens": 2950, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 54}
+{"at": "2026-11-16T12:25:11.337839+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 15, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:25:11.337867+00:00", "kind": "harness_log", "text": "generic step 23: bash -> 'exit_code=0\\n806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4  output/summary.md\\n'"}
+{"at": "2026-11-16T12:25:47.286478+00:00", "cache_read_tokens": 2880, "input_tokens": 3067, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 54}
+{"at": "2026-11-16T12:25:47.304873+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 18, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:25:47.304903+00:00", "kind": "harness_log", "text": "generic step 24: bash -> 'exit_code=0\\n806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4  output/summary.md\\n'"}
+{"at": "2026-11-16T12:25:53.888530+00:00", "cache_read_tokens": 2944, "input_tokens": 3184, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 95}
+{"at": "2026-11-16T12:25:53.888773+00:00", "bytes": 401, "kind": "tool", "name": "read_file", "ok": true, "path": "output/summary.md"}
+{"at": "2026-11-16T12:25:53.888780+00:00", "kind": "harness_log", "text": "generic step 25: read_file -> '# Summary\\n\\nSynthesis of all FACT-IDs recovered from the input files.\\n\\n- FACT-01: value-17\\n- FACT-02: value-34\\n- FACT-03: value-51\\n- FACT-04: value-68\\n- FACT-05:'"}
+{"at": "2026-11-16T12:26:12.282884+00:00", "cache_read_tokens": 3072, "input_tokens": 3373, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 38}
+{"at": "2026-11-16T12:26:12.286185+00:00", "bytes": 205, "kind": "tool", "name": "read_file", "ok": true, "path": "output/matrix.json"}
+{"at": "2026-11-16T12:26:12.286220+00:00", "kind": "harness_log", "text": "generic step 26: read_file -> '{\\n  \"FACT-01\": \"value-17\",\\n  \"FACT-02\": \"value-34\",\\n  \"FACT-03\": \"value-51\",\\n  \"FACT-04\": \"value-68\",\\n  \"FACT-05\": \"value-85\",\\n  \"FACT-06\": \"value-102\",\\n  \"FACT'"}
+{"at": "2026-11-16T12:26:23.209683+00:00", "cache_read_tokens": 3264, "input_tokens": 3523, "kind": "usage", "model": "stepfun-ai/step-5-preview", "output_tokens": 370}
+{"at": "2026-11-16T12:26:23.209741+00:00", "kind": "harness_log", "text": "generic step 27: finish -> 'ok'"}

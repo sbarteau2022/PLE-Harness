@@ -1,0 +1,20 @@
+starting bakeoff 2026-11-02T20:49:48Z
+    Finished `release` profile [optimized] target(s) in 0.05s
+     Running `target/release/globalmind-tppe-qualify manifests/qwen36-layer3-candidate-v2.manifest inputs/heldout-token-tape.bin 3`
+qualification=matched_real_qk_forward_v4_one_turn_budget
+radial_budget_w_ref=1 linear_log_start=0.05000000000000000 linear_log_span=0.12000000000000000 log_start=0.05000000000000000 log_span=0.13859319171733644
+input_digest=a7a0e22f00e9a89fb104ea4e8dde4c481c734890088e133d484248bea5360a94
+token_tape_digest=93098d3455074ae37e01dfeb0da9434f31670e9cca7a054f71dea87be0284f6b
+tokens=384 repeats=3
+arm=native_rope mean_next_token_nll=16.638299520 top1_hits=0/383 mean_wall_us=113294562.347 wall_stddev_us=49990.455 encoder_state_bytes=0 mean_abs_logit_delta_from_rope=0.000000000 max_abs_logit_delta_from_rope=0.000000000 logits_digest=69c2c6410b7503d37157a25dcf3364841d5b34664caa79923a69b9f0f1818557 paired_nll_delta_vs_rope=0.000000000 paired_nll_delta_ci95=0.000000000
+arm=angle_only_toroidal mean_next_token_nll=16.534300420 top1_hits=0/383 mean_wall_us=113273469.180 wall_stddev_us=1106067.648 encoder_state_bytes=16 mean_abs_logit_delta_from_rope=0.755369929 max_abs_logit_delta_from_rope=15.179250717 logits_digest=52ef425e39ffdbd700576a066a78f8c4b619cf8fd1034fef70094a77949c196d paired_nll_delta_vs_rope=-0.103999100 paired_nll_delta_ci95=0.142453234
+arm=tppe_linear_log_v1 mean_next_token_nll=16.540530430 top1_hits=0/383 mean_wall_us=113708496.222 wall_stddev_us=361811.475 encoder_state_bytes=64 mean_abs_logit_delta_from_rope=0.772441086 max_abs_logit_delta_from_rope=14.884585381 logits_digest=027ba0952eb50d51f4ad5f9bb36873828a4809ee5d31d100acfcc615eafe7493 paired_nll_delta_vs_rope=-0.097769090 paired_nll_delta_ci95=0.144848711
+arm=tppe_log_v1 mean_next_token_nll=16.537066996 top1_hits=0/383 mean_wall_us=114002381.084 wall_stddev_us=482561.480 encoder_state_bytes=64 mean_abs_logit_delta_from_rope=0.761946096 max_abs_logit_delta_from_rope=15.042475700 logits_digest=2f2eef8dff99fe0f415964b7604b5e7ab7d89056f667a91e6fddadffd277d7d2 paired_nll_delta_vs_rope=-0.101232524 paired_nll_delta_ci95=0.143410576
+radial_paired_delta_linear_minus_log=0.003463434 radial_paired_ci95=0.006294205
+decision=OPEN_PARTIAL_MODEL_COMPONENT_COMPARISON
+component_promoted=none
+component_benched=none
+component_radial_winner=none_tie
+promoted=none
+benched=none
+radial_winner=none

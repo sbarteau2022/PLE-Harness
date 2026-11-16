@@ -1,0 +1,80 @@
+{"at": "2026-11-16T12:21:07.375792+00:00", "cache_read_tokens": 0, "input_tokens": 1010, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 44}
+{"at": "2026-11-16T12:21:07.383475+00:00", "command": "pwd", "exit_code": 0, "kind": "tool", "ms": 8, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:21:07.383503+00:00", "kind": "harness_log", "text": "step 1: bash -> 'exit_code=0\\n/Users/stewartbarteau/Desktop/PhyEngLastExam/harness/ablations/probes/ple/mistral/20261116-062106/workspace\\n'"}
+{"at": "2026-11-16T12:21:08.094805+00:00", "cache_read_tokens": 960, "input_tokens": 1063, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:08.116207+00:00", "command": "find inputs -type f | sort", "exit_code": 0, "kind": "tool", "ms": 21, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:21:08.116283+00:00", "kind": "harness_log", "text": "step 2: bash -> 'exit_code=0\\ninputs/fact-1.txt\\ninputs/fact-2.txt\\ninputs/fact-3.txt\\ninputs/fact-4.txt\\ninputs/fact-5.txt\\ninputs/fact-6.txt\\ninputs/fact-7.txt\\ninputs/fact-8.txt\\n'"}
+{"at": "2026-11-16T12:21:08.955536+00:00", "cache_read_tokens": 1024, "input_tokens": 1142, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:08.955743+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-1.txt"}
+{"at": "2026-11-16T12:21:08.955749+00:00", "kind": "harness_log", "text": "step 3: read_file -> 'FACT-01: value-17\\n'"}
+{"at": "2026-11-16T12:21:10.938149+00:00", "cache_read_tokens": 1088, "input_tokens": 1169, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:10.938411+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-2.txt"}
+{"at": "2026-11-16T12:21:10.938421+00:00", "kind": "harness_log", "text": "step 4: read_file -> 'FACT-02: value-34\\n'"}
+{"at": "2026-11-16T12:21:11.688091+00:00", "cache_read_tokens": 1152, "input_tokens": 1196, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:11.688728+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-3.txt"}
+{"at": "2026-11-16T12:21:11.688744+00:00", "kind": "harness_log", "text": "step 5: read_file -> 'FACT-03: value-51\\n'"}
+{"at": "2026-11-16T12:21:12.071033+00:00", "cache_read_tokens": 1152, "input_tokens": 1223, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:12.071225+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-4.txt"}
+{"at": "2026-11-16T12:21:12.071231+00:00", "kind": "harness_log", "text": "step 6: read_file -> 'FACT-04: value-68\\n'"}
+{"at": "2026-11-16T12:21:12.522145+00:00", "cache_read_tokens": 1216, "input_tokens": 1250, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:12.522433+00:00", "bytes": 18, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-5.txt"}
+{"at": "2026-11-16T12:21:12.522441+00:00", "kind": "harness_log", "text": "step 7: read_file -> 'FACT-05: value-85\\n'"}
+{"at": "2026-11-16T12:21:13.548787+00:00", "cache_read_tokens": 1216, "input_tokens": 1277, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:13.548999+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-6.txt"}
+{"at": "2026-11-16T12:21:13.549005+00:00", "kind": "harness_log", "text": "step 8: read_file -> 'FACT-06: value-102\\n'"}
+{"at": "2026-11-16T12:21:13.957265+00:00", "cache_read_tokens": 1216, "input_tokens": 1304, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:13.958052+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-7.txt"}
+{"at": "2026-11-16T12:21:13.958079+00:00", "kind": "harness_log", "text": "step 9: read_file -> 'FACT-07: value-119\\n'"}
+{"at": "2026-11-16T12:21:15.078269+00:00", "cache_read_tokens": 1280, "input_tokens": 1331, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:15.079251+00:00", "bytes": 19, "kind": "tool", "name": "read_file", "ok": true, "path": "inputs/fact-8.txt"}
+{"at": "2026-11-16T12:21:15.079273+00:00", "kind": "harness_log", "text": "step 10: read_file -> 'FACT-08: value-136\\n'"}
+{"at": "2026-11-16T12:21:16.026730+00:00", "cache_read_tokens": 1280, "input_tokens": 1358, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 15}
+{"at": "2026-11-16T12:21:16.046098+00:00", "command": "wc -l inputs/*.txt", "exit_code": 0, "kind": "tool", "ms": 19, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:21:16.046156+00:00", "kind": "harness_log", "text": "step 11: bash -> 'exit_code=0\\n       1 inputs/fact-1.txt\\n       1 inputs/fact-2.txt\\n       1 inputs/fact-3.txt\\n       1 inputs/fact-4.txt\\n       1 inputs/fact-5.txt\\n       1 inpu'"}
+{"at": "2026-11-16T12:21:16.518915+00:00", "cache_read_tokens": 1344, "input_tokens": 1465, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 20}
+{"at": "2026-11-16T12:21:16.537341+00:00", "command": "awk '{print NF}' inputs/fact-1.txt", "exit_code": 0, "kind": "tool", "ms": 18, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:21:16.537386+00:00", "kind": "harness_log", "text": "step 12: bash -> 'exit_code=0\\n2\\n'"}
+{"at": "2026-11-16T12:21:16.913426+00:00", "cache_read_tokens": 1408, "input_tokens": 1494, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 16}
+{"at": "2026-11-16T12:21:16.930253+00:00", "command": "sort inputs/fact-2.txt", "exit_code": 0, "kind": "tool", "ms": 17, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:21:16.930294+00:00", "kind": "harness_log", "text": "step 13: bash -> 'exit_code=0\\nFACT-02: value-34\\n'"}
+{"at": "2026-11-16T12:21:17.692587+00:00", "cache_read_tokens": 1472, "input_tokens": 1526, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 19}
+{"at": "2026-11-16T12:21:17.703500+00:00", "command": "uniq -c inputs/fact-3.txt", "exit_code": 0, "kind": "tool", "ms": 11, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:21:17.703534+00:00", "kind": "harness_log", "text": "step 14: bash -> 'exit_code=0\\n   1 FACT-03: value-51\\n'"}
+{"at": "2026-11-16T12:21:18.356916+00:00", "cache_read_tokens": 1472, "input_tokens": 1563, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 22}
+{"at": "2026-11-16T12:21:18.386054+00:00", "command": "shasum -a 256 inputs/fact-4.txt", "exit_code": 0, "kind": "tool", "ms": 29, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:21:18.386095+00:00", "kind": "harness_log", "text": "step 15: bash -> 'exit_code=0\\nbb06d449f89f647fbf6ee14266ad6f59e5480d8074f075d9236add1e512cc87d  inputs/fact-4.txt\\n'"}
+{"at": "2026-11-16T12:22:04.336677+00:00", "cache_read_tokens": 1536, "input_tokens": 1636, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 324}
+{"at": "2026-11-16T12:22:04.337182+00:00", "bytes": 881, "kind": "tool", "name": "write_file", "ok": true, "path": "output/summary.md"}
+{"at": "2026-11-16T12:22:04.337189+00:00", "kind": "harness_log", "text": "step 16: write_file -> 'ok: wrote 881 bytes to output/summary.md'"}
+{"at": "2026-11-16T12:22:07.374205+00:00", "cache_read_tokens": 1600, "input_tokens": 1973, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 127}
+{"at": "2026-11-16T12:22:07.374611+00:00", "bytes": 206, "kind": "tool", "name": "write_file", "ok": true, "path": "output/matrix.json"}
+{"at": "2026-11-16T12:22:07.374619+00:00", "kind": "harness_log", "text": "step 17: write_file -> 'ok: wrote 206 bytes to output/matrix.json'"}
+{"at": "2026-11-16T12:22:08.640920+00:00", "cache_read_tokens": 1920, "input_tokens": 2113, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 44}
+{"at": "2026-11-16T12:22:08.641306+00:00", "bytes": 79, "kind": "tool", "name": "write_file", "ok": true, "path": "output/receipt.txt"}
+{"at": "2026-11-16T12:22:08.641313+00:00", "kind": "harness_log", "text": "step 18: write_file -> 'ok: wrote 79 bytes to output/receipt.txt'"}
+{"at": "2026-11-16T12:22:09.293139+00:00", "cache_read_tokens": 2112, "input_tokens": 2170, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 20}
+{"at": "2026-11-16T12:22:09.322335+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 29, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:22:09.322377+00:00", "kind": "harness_log", "text": "step 19: bash -> 'exit_code=0\\n33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9  output/summary.md\\n'"}
+{"at": "2026-11-16T12:22:11.136858+00:00", "cache_read_tokens": 2112, "input_tokens": 2241, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 20}
+{"at": "2026-11-16T12:22:11.165674+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 29, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:22:11.165708+00:00", "kind": "harness_log", "text": "step 20: bash -> 'exit_code=0\\n33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9  output/summary.md\\n'"}
+{"at": "2026-11-16T12:22:12.418851+00:00", "cache_read_tokens": 2240, "input_tokens": 2312, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 20}
+{"at": "2026-11-16T12:22:12.439199+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 20, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:22:12.439238+00:00", "kind": "harness_log", "text": "step 21: bash -> 'exit_code=0\\n33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9  output/summary.md\\n'"}
+{"at": "2026-11-16T12:22:30.658867+00:00", "cache_read_tokens": 2304, "input_tokens": 2414, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 718}
+{"at": "2026-11-16T12:22:30.691259+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 32, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:22:30.691302+00:00", "kind": "harness_log", "text": "step 22: bash -> 'exit_code=0\\n33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9  output/summary.md\\n'"}
+{"at": "2026-11-16T12:22:39.555670+00:00", "cache_read_tokens": 2368, "input_tokens": 2568, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 20}
+{"at": "2026-11-16T12:22:39.585012+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 29, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:22:39.585062+00:00", "kind": "harness_log", "text": "step 23: bash -> 'exit_code=0\\n33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9  output/summary.md\\n'"}
+{"at": "2026-11-16T12:22:53.441635+00:00", "cache_read_tokens": 2560, "input_tokens": 2639, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 20}
+{"at": "2026-11-16T12:22:53.467151+00:00", "command": "shasum -a 256 output/summary.md", "exit_code": 0, "kind": "tool", "ms": 25, "name": "bash", "ok": true}
+{"at": "2026-11-16T12:22:53.467186+00:00", "kind": "harness_log", "text": "step 24: bash -> 'exit_code=0\\n33d5b65d64c81ff054ca467f619a7a74157f6ad37afec3110a09dda6032dc4d9  output/summary.md\\n'"}
+{"at": "2026-11-16T12:23:17.142043+00:00", "cache_read_tokens": 2624, "input_tokens": 2741, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 260}
+{"at": "2026-11-16T12:23:17.142881+00:00", "bytes": 881, "kind": "tool", "name": "read_file", "ok": true, "path": "output/summary.md"}
+{"at": "2026-11-16T12:23:17.142916+00:00", "kind": "harness_log", "text": "step 25: read_file -> '# Synthesis of Input Facts\\n\\nThis summary synthesizes all eight fact files found under `inputs/`, each containing exactly one line (8 lines total).\\n\\n## Facts\\n\\n- '"}
+{"at": "2026-11-16T12:23:17.557354+00:00", "cache_read_tokens": 2688, "input_tokens": 3122, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 14}
+{"at": "2026-11-16T12:23:17.557525+00:00", "bytes": 206, "kind": "tool", "name": "read_file", "ok": true, "path": "output/matrix.json"}
+{"at": "2026-11-16T12:23:17.557534+00:00", "kind": "harness_log", "text": "step 26: read_file -> '{\\n  \"FACT-01\": \"value-17\",\\n  \"FACT-02\": \"value-34\",\\n  \"FACT-03\": \"value-51\",\\n  \"FACT-04\": \"value-68\",\\n  \"FACT-05\": \"value-85\",\\n  \"FACT-06\": \"value-102\",\\n  \"FACT'"}
+{"at": "2026-11-16T12:23:24.413384+00:00", "cache_read_tokens": 3072, "input_tokens": 3236, "kind": "usage", "model": "mistralai/mistral-large-4-1t-a52b", "output_tokens": 266}
+{"at": "2026-11-16T12:23:24.413440+00:00", "kind": "harness_log", "text": "step 27: finish -> 'ok'"}

@@ -1,0 +1,2880 @@
+{
+  "campaign": "ple-cross-harness-live-v1",
+  "cells": [
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "see failure ledger",
+      "evidence": [
+        "ablations/runs/harness2/mistral/20261116-002016",
+        "/Users/stewartbarteau/Desktop/PhyEngLastExam/harness/ablations/FAILURES.md"
+      ],
+      "harness": "harness2",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "run": "20261116-002016",
+      "seat": "mistral",
+      "state": "failed",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "harness2",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "deepseek-harness",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "mistralai/mistral-large-4-1t-a52b",
+      "seat": "mistral",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "stepfun-ai/step-5-preview",
+      "seat": "step5",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "backfeed-energization-reply"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "cooling-water-flush-plan"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-center-site-model"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-device-takeoff"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "data-hall-mep-routing-offset"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "division-26-specifications"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "emergency-spillway-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "engineers-estimate-check"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "eor-review-corrections"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fill-compaction-acceptance"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fire-solve-convergence"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "fire-test-validation-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "footing-settlement-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "foundation-strategy"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "frame-extension-method"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "heat-rejection-life-cycle-cost"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "landscape-sheet-revision"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "les-mesh-resolution"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "lv-cable-sizing"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "mv-conveyance-study"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "permission-to-operate-memo"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "pre-application-capacity-response"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "roof-deck-design"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "seismic-diaphragm-shear"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "shoring-design-verification"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "solar-supplemental-review"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "solar-witness-test-package"
+    },
+    {
+      "detail": "UNMET: no attempt",
+      "evidence": [
+        "ablations/PREREGISTRATION.md"
+      ],
+      "harness": "ple",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "seat": "nemotron-ultra",
+      "state": "incomplete",
+      "task": "wind-diaphragm-shear"
+    }
+  ],
+  "schema_version": 1,
+  "seed": 20261115
+}

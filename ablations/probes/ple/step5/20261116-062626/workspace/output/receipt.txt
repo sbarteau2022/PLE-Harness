@@ -1,0 +1,7 @@
+Receipt — PLE Probe Step 5 (20261116-062626)
+
+Output artifacts (3 paths):
+
+1. /Users/stewartbarteau/Desktop/PhyEngLastExam/harness/ablations/probes/ple/step5/20261116-062626/workspace/output/summary.md
+2. /Users/stewartbarteau/Desktop/PhyEngLastExam/harness/ablations/probes/ple/step5/20261116-062626/workspace/output/matrix.json
+3. /Users/stewartbarteau/Desktop/PhyEngLastExam/harness/ablations/probes/ple/step5/20261116-062626/workspace/output/receipt.txt

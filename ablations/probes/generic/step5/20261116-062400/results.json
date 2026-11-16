@@ -1,0 +1,146 @@
+{
+  "actual_tool_calls": 26,
+  "closed": true,
+  "deliverables": [
+    {
+      "bytes": 401,
+      "path": "output/summary.md",
+      "sha256": "806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4"
+    },
+    {
+      "bytes": 205,
+      "path": "output/matrix.json",
+      "sha256": "410724ca717dfc59a73961295443fabc5e09bc662d32675015a5554ce0a14324"
+    },
+    {
+      "bytes": 55,
+      "path": "output/receipt.txt",
+      "sha256": "b1cdc3e5272c4c1947634ce4b76dd8c1a86a6047bd4051d65026f2556ad987b9"
+    }
+  ],
+  "ended_at": "2026-11-16T12:26:23.213290+00:00",
+  "events_path": "trajectory.jsonl",
+  "harness": "generic",
+  "live": true,
+  "mint": {
+    "admission": "distillation_admission:ud2tk5osz3ki029ebrmt",
+    "atoms": [
+      "atom:2109",
+      "atom:2110",
+      "atom:2111",
+      "atom:2112"
+    ],
+    "kind": "harness-side-observation",
+    "readback": {
+      "atoms": [
+        {
+          "content_digest": "76407ac78b5e26523df64df2afcb18d90fc29dd2a0af61306667e879c985a4e6",
+          "domain": "S_workflow",
+          "id": "atom:2109"
+        },
+        {
+          "content_digest": "1b1c3de6f7fca9a7d5d380cabb50a445437b048b58ea748784acc0fc9f9574fc",
+          "domain": "S_workflow",
+          "id": "atom:2110"
+        },
+        {
+          "content_digest": "5adac555d94a8278b04476d7be1174e509fce85abda5bee3494f0e8d90751a30",
+          "domain": "S_workflow",
+          "id": "atom:2111"
+        },
+        {
+          "content_digest": "e96f2a16401063f2787b55058817190faaac808547df203b4caeb50697c0127b",
+          "domain": "S_workflow",
+          "id": "atom:2112"
+        }
+      ],
+      "steps": 4,
+      "trajectory": "distilled_trajectory:g7at16a8exakburb5wo1"
+    },
+    "trajectory": "distilled_trajectory:g7at16a8exakburb5wo1"
+  },
+  "model": "stepfun-ai/step-5-preview",
+  "prescribed_repeated_calls": 6,
+  "requested_calls": 27,
+  "schema_version": 1,
+  "seat": "step5",
+  "started_at": "2026-11-16T12:24:02.507797+00:00",
+  "summary": "Completed the controlled tool-use task: read all 8 fact inputs, ran the verification commands (wc, awk, sort, uniq, shasum), and wrote the three requested outputs \u2014 output/summary.md (synthesis containing every FACT-ID FACT-01 through FACT-08), output/matrix.json (FACT-ID \u2192 value mapping), and output/receipt.txt (listing the three output paths). Six repeated shasum calls on output/summary.md all returned the identical digest 806ea2042f66d3a2fdf34dc876b82cf52a19f88baf2efd86d4090687397405a4, confirming file integrity; both files were re-read and match the source facts.",
+  "telemetry": {
+    "by_name": {
+      "bash": 13,
+      "finish": 1,
+      "read_file": 10,
+      "write_file": 3
+    },
+    "cached": 48000,
+    "e2e_ms": [
+      2208,
+      1186,
+      1138,
+      1330,
+      3764,
+      7773,
+      4436,
+      827,
+      10349,
+      1756,
+      5882,
+      6748,
+      930,
+      1019,
+      1825,
+      8280,
+      2452,
+      1536,
+      1736,
+      2133,
+      1503,
+      987,
+      1007,
+      35949,
+      6584,
+      18394,
+      10923
+    ],
+    "errors": 0,
+    "finish_refusals": 0,
+    "max_context": 3523,
+    "no_progress_turns": 0,
+    "output": 2169,
+    "prompt": 53996,
+    "response_ids": [
+      "chatcmpl-d101be01-1b3d-4412-9733-8d3b3da1a7ae",
+      "chatcmpl-07a3a6c3-324b-46b1-bf40-b3014ac9a058",
+      "chatcmpl-83a91a7e-9d1e-44ea-a08b-131850ef1a87",
+      "chatcmpl-56c495ce-2b0a-4688-a005-0f7c3c941071",
+      "chatcmpl-24b84f2e-5fad-4762-af81-0adcc06ef65c",
+      "chatcmpl-962d6e97-47da-41d0-a460-ff2efa0ad94a",
+      "chatcmpl-e293fc55-1059-44c2-9980-e70c417734e9",
+      "chatcmpl-5c0886e4-22c6-49f5-acc2-ad2725357830",
+      "chatcmpl-49b8bbcf-9fae-4d93-8692-ae14bf5ca6fe",
+      "chatcmpl-ac3c21a4-3f72-47a6-9269-35f40e355d67",
+      "chatcmpl-06e21166-bed3-4827-a336-8c725f747c17",
+      "chatcmpl-d60f54ed-344e-45a2-95b5-a12880d2986f",
+      "chatcmpl-24504bc0-d480-49a8-85c8-66ddbaffbce8",
+      "chatcmpl-df4377a3-2e61-47ec-93b6-ac7fa9c9616e",
+      "chatcmpl-9c4a4448-5de3-447e-a75f-b3ff64d1a73a",
+      "chatcmpl-f7cdfee4-5a39-4bc1-a075-0054436ca770",
+      "chatcmpl-fb6f66ea-b1a5-4a43-aa08-69e895665949",
+      "chatcmpl-3eec8ce4-a300-46a0-931d-519385e4ad63",
+      "chatcmpl-0a5b4155-8d0a-4f61-8d91-d335afb83eec",
+      "chatcmpl-35f9ebfa-f46e-473a-b6cd-1fc83a2373ca",
+      "chatcmpl-b77771c4-679d-4871-819b-123266345856",
+      "chatcmpl-205790ea-f441-47b4-8299-be66709354cc",
+      "chatcmpl-cac10f1f-eff4-4d3e-a2c9-23ebf5e339e6",
+      "chatcmpl-a1003656-1e63-4527-802f-7e7de46f0028",
+      "chatcmpl-05852871-6fe5-413c-b62d-838936b1d9bd",
+      "chatcmpl-22768939-348c-4371-9283-ec2d248e1700",
+      "chatcmpl-fc53ff00-6e6b-4ea4-ae78-70a3a1483622"
+    ],
+    "steps": 27,
+    "successes": 27,
+    "uncached": 5996
+  },
+  "wall_seconds": 143.067
+}
