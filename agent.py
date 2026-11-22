@@ -19,6 +19,7 @@ from __future__ import annotations
 import ast
 import asyncio
 import dataclasses
+import hashlib
 import json
 import os
 import pathlib
@@ -194,16 +195,51 @@ class Config:
 
     @classmethod
     def from_env(cls) -> "Config":
+        """Builds the config from environment variables, validating every value.
+
+        Raises ValueError naming the offending variable instead of crashing later
+        mid-run on a bad int/float cast or an empty model name.
+        """
         env = os.environ
+
+        def _int(name: str, default: int) -> int:
+            raw = env.get(name, "")
+            if not raw.strip():
+                return default
+            try:
+                value = int(raw)
+            except ValueError:
+                raise ValueError(f"{name} must be an integer, got {raw!r}") from None
+            if value <= 0:
+                raise ValueError(f"{name} must be positive, got {value}")
+            return value
+
+        raw_reserve = env.get("RESERVE_SECONDS", "").strip()
+        try:
+            reserve_seconds = float(raw_reserve) if raw_reserve else 240.0
+        except ValueError:
+            raise ValueError(f"RESERVE_SECONDS must be a number, got {raw_reserve!r}") from None
+        if reserve_seconds < 0:
+            raise ValueError(f"RESERVE_SECONDS must be non-negative, got {reserve_seconds}")
+
+        tool_mode = env.get("TOOL_MODE", "auto").strip() or "auto"
+        if tool_mode not in {"auto", "text", "native"}:
+            raise ValueError(f"TOOL_MODE must be 'auto', 'text', or 'native', got {tool_mode!r}")
+
         return cls(
-            model=env.get("MODEL_NAME", ""),
+            model=env.get("MODEL_NAME", "").strip(),
             base_url=env.get("MODEL_BASE_URL") or None,
-            api_key=env.get("MODEL_API_KEY") or "none",
-            max_output_tokens=int(env.get("MAX_OUTPUT_TOKENS", "16000")),
-            compact_at_tokens=int(env.get("COMPACT_AT_TOKENS", "90000")),
-            max_steps=int(env.get("MAX_STEPS", "400")),
-            reserve_seconds=float(env.get("RESERVE_SECONDS", "240")),
-            checkpoint_every=int(env.get("CHECKPOINT_EVERY", "25")),
+            # Local servers often accept any key; keep the placeholder only when
+            # no base URL is set (a real endpoint without a key would fail closed).
+            api_key=env.get("MODEL_API_KEY") or ("none" if not env.get("MODEL_BASE_URL") else ""),
+            max_output_tokens=_int("MAX_OUTPUT_TOKENS", 16000),
+            compact_at_tokens=_int("COMPACT_AT_TOKENS", 90000),
+            max_steps=_int("MAX_STEPS", 400),
+            reserve_seconds=reserve_seconds,
+            max_tool_output_chars=_int("MAX_TOOL_OUTPUT_CHARS", 20000),
+            max_retries=_int("MAX_RETRIES", 6),
+            checkpoint_every=_int("CHECKPOINT_EVERY", 25),
+            tool_mode=tool_mode,
         )
 
 
@@ -298,7 +334,7 @@ def text_tool_calls(content: str, names: set[str]) -> list[Any]:
             except json.JSONDecodeError:
                 arguments = {}
         calls.append(types.SimpleNamespace(
-            id=f"text_{index}_{abs(hash(chunk)) % 10**8}",
+            id=f"text_{index}_{hashlib.sha256(chunk.encode()).hexdigest()[:8]}",
             function=types.SimpleNamespace(name=name, arguments=json.dumps(arguments))))
     return calls
 
@@ -345,6 +381,7 @@ class ModelClient:
 
     def __init__(self, config: Config) -> None:
         self._config = config
+        self.attempts = 0  # total model-call attempts (steps + retries), for telemetry
         self.text_mode = "text" in (config.tool_mode, os.environ.get("TOOL_MODE", "auto"))
         self._local = None
         if config.local_runtime is not None:
@@ -352,6 +389,11 @@ class ModelClient:
             self._local = LocalChatClient(config)
             self._client = None
             return
+        if not config.api_key:
+            raise ValueError(
+                "MODEL_API_KEY is required when MODEL_BASE_URL points at a remote endpoint; "
+                "refusing to launch calls that would fail with an unauthenticated request"
+            )
         self._client = openai.AsyncOpenAI(
             base_url=config.base_url,
             api_key=config.api_key,
@@ -475,7 +517,13 @@ class ToolRunner:
     async def run(self, name: str, args: dict[str, Any]) -> str:
         try:
             if name == "engineering_verify":
-                result = engineering_verify.run(args)
+                # verify() parses untrusted model input and can raise on malformed
+                # manifests; run it off the event loop so a heavy computation never
+                # blocks other tasks, and turn any failure into a tool error string.
+                try:
+                    result = await asyncio.to_thread(engineering_verify.run, args)
+                except Exception as exc:  # noqa: BLE001 - tool boundary must not crash the loop
+                    return f"error: engineering verification failed: {exc}"
                 return result if len(result) <= self._limit else "error: engineering verification report exceeds tool output limit; reduce manifest size"
             if name in self._handlers:
                 return _clip(str(await self._handlers[name](args)), self._limit)
@@ -565,8 +613,9 @@ async def run(
             state = json.loads(saved.read_text())
             messages, first_step = state["messages"], state["step"] + 1
             await session.log(f"resumed from step {state['step']}")
-        except (json.JSONDecodeError, KeyError):
-            pass
+        except (json.JSONDecodeError, KeyError, OSError, TypeError) as exc:
+            # A corrupt checkpoint must not silently discard context without a trace.
+            await session.log(f"transcript at {saved} is unreadable ({exc}); starting fresh")
     total_time = session.time_left()
     slowest_step = 0.0
     drafted = wrapping_up = False
@@ -679,7 +728,10 @@ async def run(
             else:
                 meter["successes"] += 1
             messages.append({"role": "tool", "tool_call_id": call.id, "content": output})
-            repeats.append(f"{call.function.name}|{call.function.arguments}|{hash(output)}")
+            repeats.append(
+                f"{call.function.name}|{call.function.arguments}|"
+                f"{hashlib.sha256(output.encode()).hexdigest()}"
+            )
         if len(repeats) >= 3 and len(set(repeats[-3:])) == 1 and not finished:
             repeats.clear()
             messages.append({

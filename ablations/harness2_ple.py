@@ -82,7 +82,9 @@ class PleAdapter:
 
     def __init__(self, instruction: str, relay_url: str, run_root: pathlib.Path, model: str, timeout: int = 600):
         self.instruction = instruction
-        self.relay_url = relay_url
+        # The relay URL embeds a per-session secret token; keep it out of the
+        # instance repr so audit dumps or crash logs cannot leak credentials.
+        self._relay_url = relay_url
         self.run_root = run_root
         self.model = model
         self.timeout = timeout
@@ -105,6 +107,15 @@ class PleAdapter:
             obs_trunc=50_000,
         )
         self._base = make_base(run_root / "base-harness")
+
+    @property
+    def relay_url(self) -> str:
+        """Redacted view of the authenticated relay URL, safe for logs and reprs."""
+        return "<relay-url-redacted>"
+
+    def _relay_env(self) -> dict[str, str]:
+        """Builds subprocess env entries that need the real token. Never log this output."""
+        return {"TASK_RELAY_URL": self._relay_url}
 
     def tasks(self, split: str = "all") -> list[str]:
         return [self.task_id]
@@ -158,7 +169,7 @@ class PleAdapter:
         env = h2_config.scrub_env(keep=h2_config.provider_keys(self.model))
         env.update({
             "NVIDIA_API_KEY": os.environ.get("NVIDIA_API_KEY", os.environ.get("MODEL_API_KEY", "")),
-            "TASK_RELAY_URL": self.relay_url,
+            "TASK_RELAY_URL": self._relay_url,  # secret token; env only, never logged
             "NO_PROXY": "127.0.0.1,localhost," + env.get("NO_PROXY", ""),
             "no_proxy": "127.0.0.1,localhost," + env.get("no_proxy", ""),
             "OPENCODE_EXPERIMENTAL_OUTPUT_TOKEN_MAX": os.environ.get("MAX_OUTPUT_TOKENS", "16000"),
